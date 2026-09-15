@@ -1,27 +1,27 @@
 # Innovation Radar
 
-Radar automatizado de inovação orientado a **novas possibilidades**, e não apenas a tendências ou popularidade tecnológica.
+Automated innovation radar oriented toward **new possibilities**, not just technology trends or popularity.
 
-## Objetivo
+## Purpose
 
-O projeto busca sinais emergentes que possam representar novas capacidades, novos comportamentos, combinações pouco convencionais de tecnologias, experimentos ou oportunidades de produto, serviço e experiência relevantes para a Namu.
+The project looks for emerging signals that may represent new capabilities, new behaviors, unconventional combinations of technologies, experiments, or product, service, and experience opportunities relevant to Namu.
 
-A lógica do radar é:
+The radar's logic is:
 
-**Automação descobre → IA filtra → equipe investiga**
+**Automation discovers → AI filters → the team investigates**
 
-O sistema não deve se transformar em um agregador de notícias, GitHub Trending interno ou catálogo de ferramentas para desenvolvedores.
+The system must not become a news aggregator, an internal GitHub Trending, or a catalog of developer tools.
 
-## Princípios
+## Principles
 
-1. **Popularidade é evidência, não descoberta.**
-2. O radar procura **novas possibilidades**, não necessariamente tecnologias novas.
-3. Ferramentas de desenvolvimento só são relevantes quando habilitam claramente uma nova capacidade de produto, serviço ou experiência.
-4. A fonte original não precisa falar de saúde para que o sinal seja relevante.
-5. A decisão final continua sendo humana.
-6. A arquitetura deve começar simples e evoluir apenas quando houver uma limitação observada.
+1. **Popularity is evidence, not discovery.**
+2. The radar looks for **new possibilities**, not necessarily new technologies.
+3. Developer tools are only relevant when they clearly enable a new product, service, or experience capability.
+4. The original source does not need to be about health for the signal to be relevant.
+5. The final decision remains human.
+6. The architecture should start simple and evolve only when a limitation is observed.
 
-## Estrutura
+## Structure
 
 ```text
 innovation-radar/
@@ -75,75 +75,75 @@ innovation-radar/
 
 ## M0 — Foundation
 
-O M0 fornece uma base executável sem coletores, rede ou IA. Ele usa somente a biblioteca padrão do Python em runtime e cria um banco SQLite local com os modelos mínimos `RawItem` e `RunRecord`.
+M0 provides a runnable foundation with no collectors, network, or AI. It uses only the Python standard library at runtime and creates a local SQLite database with the minimal `RawItem` and `RunRecord` models.
 
-### Requisitos
+### Requirements
 
-- Python 3.11 ou superior.
+- Python 3.11 or higher.
 
-### Criar e ativar o ambiente
+### Create and activate the environment
 
-No PowerShell:
+On PowerShell:
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-No Linux ou macOS:
+On Linux or macOS:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-### Instalar
+### Install
 
 ```bash
 python -m pip install -e ".[dev]"
 ```
 
-### Executar os testes
+### Run the tests
 
 ```bash
 python -m pytest
 ```
 
-### Inicializar o banco
+### Initialize the database
 
 ```bash
 python -m innovation_radar init-db
 ```
 
-Por padrão, o arquivo é criado em `data/innovation_radar.sqlite3`. Bancos locais são ignorados pelo Git.
+By default, the file is created at `data/innovation_radar.sqlite3`. Local databases are ignored by Git.
 
-As configurações podem ser alteradas diretamente por variáveis de ambiente:
+Settings can be changed directly through environment variables:
 
-| Variável | Default | Valores |
+| Variable | Default | Values |
 |---|---|---|
-| `INNOVATION_RADAR_DB_PATH` | `data/innovation_radar.sqlite3` | Caminho não vazio para o banco local |
-| `INNOVATION_RADAR_LOG_LEVEL` | `INFO` | `DEBUG`, `INFO`, `WARNING`, `ERROR` ou `CRITICAL` |
-| `INNOVATION_RADAR_REPORT_DIR` | `data/reports` | Diretório dos relatórios brutos |
-| `INNOVATION_RADAR_HN_LIMIT` | `2` | Itens por superfície HN, entre 1 e 100 |
-| `INNOVATION_RADAR_RSS_LIMIT` | `2` | Itens por feed, entre 1 e 100 |
-| `INNOVATION_RADAR_RSS_FEEDS` | Três feeds de validação | Array JSON de feeds com `id`, `name`, `url` e `category` opcional |
-| `INNOVATION_RADAR_REVIEW_SAMPLE_LIMIT` | `12` | Máximo de itens na amostra de revisão, entre 1 e 100 |
-| `INNOVATION_RADAR_GITHUB_LENSES` | Cinco lentes conceituais | Array JSON com `id`, `description` e `query` |
-| `INNOVATION_RADAR_GITHUB_LIMIT` | `2` | Repositórios por lente, entre 1 e 20 |
-| `INNOVATION_RADAR_GITHUB_RECENCY_DAYS` | `60` | Janela de atividade em dias, entre 1 e 3650 |
-| `INNOVATION_RADAR_GITHUB_MIN_STARS` | `0` | Piso opcional contra spam, entre 0 e 100; não é ranking |
-| `INNOVATION_RADAR_GITHUB_README_LIMIT` | `10` | Máximo de READMEs consultados por execução, entre 0 e 50 |
-| `GITHUB_TOKEN` | Ausente | Token opcional para ampliar os limites da API pública |
-| `INNOVATION_RADAR_REDDIT_LENSES` | Cinco lenses comportamentais | Array JSON com `id`, `description`, `queries` e `subreddits` |
-| `INNOVATION_RADAR_REDDIT_LIMIT` | `8` | Máximo selecionado por lens, entre 1 e 20 |
-| `INNOVATION_RADAR_REDDIT_NEW_LIMIT` | `2` | Itens solicitados da superfície `/new` por subreddit, entre 0 e 10 |
-| `INNOVATION_RADAR_REDDIT_RECENCY_DAYS` | `30` | Janela recente, entre 1 e 365 dias |
-| `REDDIT_CLIENT_ID` | Ausente | ID de um cliente OAuth explicitamente aprovado pelo Reddit |
-| `REDDIT_CLIENT_SECRET` | Ausente | Secret do cliente aprovado; nunca é persistido ou registrado |
-| `INNOVATION_RADAR_REDDIT_USER_AGENT` | Ausente | Identificação no formato `plataforma:app:versão (by /u/usuário)` |
-| `INNOVATION_RADAR_ANALYSIS_PROVIDER` | `heuristic-offline` | Provedor de análise do M3; atualmente apenas `heuristic-offline` |
+| `INNOVATION_RADAR_DB_PATH` | `data/innovation_radar.sqlite3` | Non-empty path to the local database |
+| `INNOVATION_RADAR_LOG_LEVEL` | `INFO` | `DEBUG`, `INFO`, `WARNING`, `ERROR`, or `CRITICAL` |
+| `INNOVATION_RADAR_REPORT_DIR` | `data/reports` | Directory for the raw reports |
+| `INNOVATION_RADAR_HN_LIMIT` | `2` | Items per HN surface, between 1 and 100 |
+| `INNOVATION_RADAR_RSS_LIMIT` | `2` | Items per feed, between 1 and 100 |
+| `INNOVATION_RADAR_RSS_FEEDS` | Three validation feeds | JSON array of feeds with `id`, `name`, `url`, and optional `category` |
+| `INNOVATION_RADAR_REVIEW_SAMPLE_LIMIT` | `12` | Maximum items in the review sample, between 1 and 100 |
+| `INNOVATION_RADAR_GITHUB_LENSES` | Five conceptual lenses | JSON array with `id`, `description`, and `query` |
+| `INNOVATION_RADAR_GITHUB_LIMIT` | `2` | Repositories per lens, between 1 and 20 |
+| `INNOVATION_RADAR_GITHUB_RECENCY_DAYS` | `60` | Activity window in days, between 1 and 3650 |
+| `INNOVATION_RADAR_GITHUB_MIN_STARS` | `0` | Optional anti-spam floor, between 0 and 100; not a ranking |
+| `INNOVATION_RADAR_GITHUB_README_LIMIT` | `10` | Maximum READMEs fetched per run, between 0 and 50 |
+| `GITHUB_TOKEN` | Absent | Optional token to raise the public API limits |
+| `INNOVATION_RADAR_REDDIT_LENSES` | Five behavioral lenses | JSON array with `id`, `description`, `queries`, and `subreddits` |
+| `INNOVATION_RADAR_REDDIT_LIMIT` | `8` | Maximum selected per lens, between 1 and 20 |
+| `INNOVATION_RADAR_REDDIT_NEW_LIMIT` | `2` | Items requested from the `/new` surface per subreddit, between 0 and 10 |
+| `INNOVATION_RADAR_REDDIT_RECENCY_DAYS` | `30` | Recent window, between 1 and 365 days |
+| `REDDIT_CLIENT_ID` | Absent | ID of an OAuth client explicitly approved by Reddit |
+| `REDDIT_CLIENT_SECRET` | Absent | Approved client secret; never persisted or logged |
+| `INNOVATION_RADAR_REDDIT_USER_AGENT` | Absent | Identification in the format `platform:app:version (by /u/username)` |
+| `INNOVATION_RADAR_ANALYSIS_PROVIDER` | `heuristic-offline` | M3 analysis provider; currently only `heuristic-offline` |
 
-Exemplo no PowerShell:
+Example on PowerShell:
 
 ```powershell
 $env:INNOVATION_RADAR_DB_PATH = "data/local.sqlite3"
@@ -151,64 +151,64 @@ $env:INNOVATION_RADAR_LOG_LEVEL = "DEBUG"
 python -m innovation_radar init-db
 ```
 
-O M0 não usa credenciais e não carrega arquivos `.env`.
+M0 uses no credentials and does not load `.env` files.
 
-## M1A — Discovery com Hacker News e RSS
+## M1A — Discovery with Hacker News and RSS
 
-O M1A coleta e normaliza uma amostra pequena, persiste os itens no SQLite e gera um relatório bruto Markdown. Ele não classifica relevância, não calcula score de oportunidade e não ordena itens por popularidade.
+M1A collects and normalizes a small sample, persists the items in SQLite, and generates a raw Markdown report. It does not classify relevance, compute an opportunity score, or sort items by popularity.
 
-### Executar uma coleta
+### Run a collection
 
 ```bash
 python -m innovation_radar run
 ```
 
-Cada execução cria ou atualiza um `RunRecord` e grava o relatório em `data/reports` por padrão. Os status possíveis são `completed`, `partial` e `failed`.
+Each run creates or updates a `RunRecord` and writes the report to `data/reports` by default. The possible statuses are `completed`, `partial`, and `failed`.
 
-Um item externo é identificado por `(source, source_item_id)`. Reencontros preservam `first_seen_at`, atualizam `collected_at`, métricas e payload, e não criam uma nova linha.
+An external item is identified by `(source, source_item_id)`. Re-encounters preserve `first_seen_at`, update `collected_at`, metrics, and payload, and do not create a new row.
 
 ### Hacker News
 
-O coletor usa a API pública oficial:
+The collector uses the official public API:
 
 - `https://hacker-news.firebaseio.com/v0/newstories.json`;
 - `https://hacker-news.firebaseio.com/v0/showstories.json`;
 - `https://hacker-news.firebaseio.com/v0/beststories.json`;
 - `https://hacker-news.firebaseio.com/v0/item/<id>.json`.
 
-As superfícies são consultadas nessa ordem. Score e comentários são armazenados apenas como métricas brutas.
+The surfaces are queried in that order. Score and comments are stored only as raw metrics.
 
-### Feeds RSS de validação
+### RSS validation feeds
 
-Os defaults usam um identificador técnico estável separado do nome de exibição:
+The defaults use a stable technical identifier separate from the display name:
 
-| ID | Nome | Categoria | URL |
+| ID | Name | Category | URL |
 |---|---|---|---|
 | `mit_ai` | MIT News — Artificial Intelligence | `research` | `https://news.mit.edu/rss/topic/artificial-intelligence2` |
 | `google_health` | Google — Health | `health` | `https://blog.google/technology/health/rss/` |
 | `medium_healthtech` | Medium — Healthtech | `health` | `https://medium.com/feed/tag/healthtech` |
 
-Para substituir a lista no PowerShell:
+To replace the list on PowerShell:
 
 ```powershell
 $env:INNOVATION_RADAR_RSS_FEEDS = '[{"id":"custom","name":"Custom feed","url":"https://example.com/feed.xml","category":"validation"}]'
 python -m innovation_radar run
 ```
 
-O `id` deve permanecer estável; alterações em `name` não alteram a identidade dos itens. O coletor aceita RSS e Atom, inclusive o formato de feed documentado pelo Medium. Ele não segue links para fazer scraping do conteúdo completo.
+The `id` must remain stable; changing `name` does not change item identity. The collector accepts RSS and Atom, including the feed format documented by Medium. It does not follow links to scrape full content.
 
-## M1B — Amostra para revisão humana
+## M1B — Sample for human review
 
-Por padrão, o radar coleta uma amostra pequena e diária, adequada para revisão humana leve. Basta executar, sem configurar limites:
+By default, the radar collects a small, daily sample suited to lightweight human review. Just run it, without configuring limits:
 
 ```powershell
 python -m innovation_radar run
 python -m innovation_radar export-review-sample
 ```
 
-Com os defaults (HN=2, RSS=2, GitHub=2, amostra=12), a lista final fica em torno de uma dúzia de itens diversos, no rodízio entre fontes. A amostra continua neutra: nenhum ranking, score ou julgamento automático decide o que entra.
+With the defaults (HN=2, RSS=2, GitHub=2, sample=12), the final list is around a dozen diverse items, rotated across sources. The sample remains neutral: no ranking, score, or automatic judgment decides what goes in.
 
-Para um ciclo maior de validação (por exemplo, entre 60 e 100 itens), aumente os limites explicitamente:
+For a larger validation cycle (for example, between 60 and 100 items), raise the limits explicitly:
 
 ```powershell
 $env:INNOVATION_RADAR_HN_LIMIT = "20"
@@ -218,88 +218,88 @@ python -m innovation_radar run
 python -m innovation_radar export-review-sample
 ```
 
-O segundo comando lê os itens únicos do SQLite e grava, no diretório configurado por `INNOVATION_RADAR_REPORT_DIR`:
+The second command reads the unique items from SQLite and writes, in the directory configured by `INNOVATION_RADAR_REPORT_DIR`:
 
-- `review_sample.csv`: amostra UTF-8 pronta para revisão, com `human_label` e `human_reason` vazios;
-- `review_sample_summary.md`: contagens por fonte e superfície/feed, período coberto, duplicatas evitadas e falhas da execução mais recente.
+- `review_sample.csv`: a UTF-8 sample ready for review, with `human_label` and `human_reason` empty;
+- `review_sample_summary.md`: counts by source and surface/feed, covered period, duplicates avoided, and failures from the most recent run.
 
-A seleção faz um rodízio determinístico entre grupos de proveniência para preservar diversidade. Ela não usa score, comentários ou qualquer outra métrica de popularidade para ordenar, classificar ou interpretar os itens. A transformação posterior em `tests/fixtures/signal_gold_set.json` depende de revisão humana explícita.
+Selection performs a deterministic round-robin among provenance groups to preserve diversity. It does not use score, comments, or any other popularity metric to order, classify, or interpret the items. The later transformation into `tests/fixtures/signal_gold_set.json` depends on explicit human review.
 
-### Página de revisão (HTML estático)
+### Review page (static HTML)
 
-Para revisar de forma mais confortável que no CSV, gere uma página HTML estática a partir da amostra:
+To review more comfortably than in the CSV, generate a static HTML page from the sample:
 
 ```powershell
 python -m innovation_radar export-review-page
 ```
 
-Por default, o comando lê `review_sample.csv` e grava `review.html` no diretório configurado por `INNOVATION_RADAR_REPORT_DIR`. Use `--csv-path` e `--html-path` para caminhos específicos.
+By default, the command reads `review_sample.csv` and writes `review.html` in the directory configured by `INNOVATION_RADAR_REPORT_DIR`. Use `--csv-path` and `--html-path` for specific paths.
 
-A página abre direto no navegador, sem servidor, framework ou rede. Ela mostra a lista enxuta (fonte, título com link, descrição), permite filtrar por fonte e rótulo, marcar cada item como `interesting`, `maybe` ou `irrelevant` com um motivo opcional, e baixar um CSV rotulado (`review_sample_labeled.csv`). Não há ranking, score ou julgamento automático: a ordem é a mesma amostra por rodízio, e a decisão continua humana. O conteúdo coletado é tratado como dado externo não confiável e nunca é interpretado como HTML.
+The page opens directly in the browser, with no server, framework, or network. It shows the compact list (source, title with link, description), lets you filter by source and label, mark each item as `interesting`, `maybe`, or `irrelevant` with an optional reason, and download a labeled CSV (`review_sample_labeled.csv`). There is no ranking, score, or automatic judgment: the order is the same round-robin sample, and the decision remains human. Collected content is treated as untrusted external data and is never interpreted as HTML.
 
-### Memória de revisão (ciclo diário)
+### Review memory (daily cycle)
 
-Para não revisar o mesmo item duas vezes, registre os rótulos baixados de volta no radar:
+To avoid reviewing the same item twice, record the downloaded labels back into the radar:
 
 ```powershell
-python -m innovation_radar mark-reviewed "C:\caminho\review_sample_labeled.csv"
+python -m innovation_radar mark-reviewed "C:\path\review_sample_labeled.csv"
 ```
 
-O comando lê o CSV rotulado, valida os rótulos (`interesting`, `maybe`, `irrelevant`), ignora linhas ainda sem rótulo e grava as decisões numa memória local no SQLite. A partir daí, `export-review-sample` exclui automaticamente qualquer item já revisado. Um item revisado não reaparece; se todos os candidatos já tiverem sido revisados, o export falha pedindo uma nova coleta.
+The command reads the labeled CSV, validates the labels (`interesting`, `maybe`, `irrelevant`), skips rows still without a label, and stores the decisions in a local memory in SQLite. From then on, `export-review-sample` automatically excludes any already-reviewed item. A reviewed item does not reappear; if all candidates have already been reviewed, the export fails and asks for a new collection.
 
-O ciclo diário fica:
+The daily cycle is:
 
 ```powershell
 python -m innovation_radar run
 python -m innovation_radar export-review-sample
 python -m innovation_radar export-review-page
-# abrir review.html, marcar, baixar review_sample_labeled.csv
+# open review.html, mark items, download review_sample_labeled.csv
 python -m innovation_radar mark-reviewed review_sample_labeled.csv
 ```
 
-## M1C — Gold Set v0.1 e análise do julgamento humano
+## M1C — Gold Set v0.1 and human judgment analysis
 
-Depois que `review_sample.xlsx` estiver integralmente revisado, importe-o com:
+Once `review_sample.xlsx` has been fully reviewed, import it with:
 
 ```powershell
-python -m innovation_radar import-gold-set "C:\caminho\review_sample.xlsx" --expected-count 90
+python -m innovation_radar import-gold-set "C:\path\review_sample.xlsx" --expected-count 90
 ```
 
-O comando valida toda a planilha antes de escrever qualquer resultado. Ele falha claramente quando encontra:
+The command validates the entire spreadsheet before writing any result. It fails clearly when it finds:
 
-- label diferente de `interesting`, `maybe` ou `irrelevant`;
-- label ou motivo vazio;
-- `item_id` duplicado;
-- coluna obrigatória ausente;
-- métrica que não seja um objeto JSON válido;
-- quantidade diferente de `--expected-count`.
+- a label other than `interesting`, `maybe`, or `irrelevant`;
+- an empty label or reason;
+- a duplicate `item_id`;
+- a missing required column;
+- a metric that is not a valid JSON object;
+- a count different from `--expected-count`.
 
-Saídas padrão:
+Default outputs:
 
-- `tests/fixtures/signal_gold_set.json`: referência determinística com os julgamentos humanos e SHA-256 do workbook;
-- `docs/07_HUMAN_JUDGMENT_ANALYSIS.md`: distribuição geral, qualidade por superfície/feed, indicadores textuais dos motivos e possíveis pontos de calibração da política.
+- `tests/fixtures/signal_gold_set.json`: a deterministic reference with the human judgments and the workbook's SHA-256;
+- `docs/07_HUMAN_JUDGMENT_ANALYSIS.md`: overall distribution, quality by surface/feed, textual indicators from the reasons, and possible policy calibration points.
 
-A análise usa apenas contagens e correspondência lexical transparente. Ela não corrige labels, não decide divergências, não altera `docs/05_SIGNAL_POLICY.md` e não utiliza LLM.
+The analysis uses only counts and transparent lexical matching. It does not correct labels, decide divergences, change `docs/05_SIGNAL_POLICY.md`, or use an LLM.
 
 ## M1D — GitHub Discovery
 
-O GitHub participa do mesmo comando e pipeline sequencial já usados pelas fontes anteriores:
+GitHub participates in the same command and sequential pipeline already used by the previous sources:
 
 ```powershell
 python -m innovation_radar run
 python -m innovation_radar export-review-sample
 ```
 
-O coletor usa somente a API REST oficial:
+The collector uses only the official REST API:
 
-- `GET https://api.github.com/search/repositories` para encontrar repositórios;
-- `GET https://api.github.com/repos/<owner>/<repo>/readme` para enriquecer uma quantidade limitada de candidatos quando o README estiver disponível.
+- `GET https://api.github.com/search/repositories` to find repositories;
+- `GET https://api.github.com/repos/<owner>/<repo>/readme` to enrich a limited number of candidates when the README is available.
 
-As buscas são separadas em cinco lentes configuráveis: saúde e bem-estar; wearables e sensores; voz, visão computacional e multimodalidade; capacidades locais e novas interfaces; dados pessoais e experimentos transferíveis. Cada busca recebe uma janela `pushed:>=...`, limite próprio e ordenação por `updated`. Os resultados finais passam por rodízio entre lentes e deduplicação pelo ID numérico do repositório. Não há ordenação final por stars.
+Searches are split into five configurable lenses: health and wellness; wearables and sensors; voice, computer vision, and multimodality; local capabilities and new interfaces; personal data and transferable experiments. Each search gets a `pushed:>=...` window, its own limit, and ordering by `updated`. The final results go through a round-robin across lenses and deduplication by the repository's numeric ID. There is no final ordering by stars.
 
-Stars, forks, issues, linguagem, tópicos e datas permanecem metadados descritivos. O default `INNOVATION_RADAR_GITHUB_MIN_STARS=0` não exclui projetos pequenos; se configurado, esse piso serve somente como controle simples de spam.
+Stars, forks, issues, language, topics, and dates remain descriptive metadata. The default `INNOVATION_RADAR_GITHUB_MIN_STARS=0` does not exclude small projects; if configured, that floor serves only as a simple spam control.
 
-Para substituir as lentes no PowerShell:
+To replace the lenses on PowerShell:
 
 ```powershell
 $env:INNOVATION_RADAR_GITHUB_LENSES = '[{"id":"wearable_trials","description":"Wearable experiments","query":"wearable OR biosensor"}]'
@@ -307,51 +307,51 @@ $env:INNOVATION_RADAR_GITHUB_RECENCY_DAYS = "30"
 python -m innovation_radar run
 ```
 
-`GITHUB_TOKEN` é opcional. Sem ele, o coletor acessa apenas dados públicos e fica sujeito ao limite de busca não autenticada informado pelo GitHub. Com ele, envia `Authorization: Bearer ...`; o valor nunca é gravado no SQLite, nos relatórios ou nos logs. Não há carregamento de `.env`.
+`GITHUB_TOKEN` is optional. Without it, the collector accesses only public data and is subject to the unauthenticated search limit reported by GitHub. With it, it sends `Authorization: Bearer ...`; the value is never written to SQLite, reports, or logs. There is no `.env` loading.
 
-O enriquecimento de README é deliberadamente limitado: somente os primeiros candidatos diversos, até `INNOVATION_RADAR_GITHUB_README_LIMIT`, são consultados. O SQLite preserva um trecho de até 1.200 caracteres, a URL de origem e metadados do arquivo, não uma cópia completa do README. Use `0` para desabilitar essas chamadas adicionais.
+README enrichment is deliberately limited: only the first diverse candidates, up to `INNOVATION_RADAR_GITHUB_README_LIMIT`, are queried. SQLite preserves an excerpt of up to 1,200 characters, the source URL, and file metadata, not a full copy of the README. Use `0` to disable these extra calls.
 
-Na amostra CSV, a coluna de proveniência contém as lentes que encontraram o repositório, `available_metrics` contém datas e metadados GitHub, e `short_description` inclui o trecho de README quando disponível. Os campos de julgamento humano continuam vazios.
+In the CSV sample, the provenance column contains the lenses that found the repository, `available_metrics` contains GitHub dates and metadata, and `short_description` includes the README excerpt when available. The human judgment fields remain empty.
 
-## M1D.1 — Gold Set v0.2 e análise das discovery lenses
+## M1D.1 — Gold Set v0.2 and discovery lens analysis
 
-Depois da revisão humana de `review_sample_github.xlsx`, faça o merge sobre o Gold Set v0.1 com:
+After the human review of `review_sample_github.xlsx`, merge it onto Gold Set v0.1 with:
 
 ```powershell
-python -m innovation_radar merge-github-gold-set "C:\caminho\review_sample_github.xlsx"
+python -m innovation_radar merge-github-gold-set "C:\path\review_sample_github.xlsx"
 ```
 
-Antes de escrever, o comando valida os 43 registros, exige exatamente 40 itens com `source=github`, confere a distribuição `interesting=17`, `maybe=4`, `irrelevant=19` e preserva os 90 itens não GitHub já existentes. Os três registros de Hacker News presentes no workbook são validados, mas não entram no merge.
+Before writing, the command validates the 43 records, requires exactly 40 items with `source=github`, checks the distribution `interesting=17`, `maybe=4`, `irrelevant=19`, and preserves the 90 existing non-GitHub items. The three Hacker News records present in the workbook are validated but do not enter the merge.
 
-Saídas padrão:
+Default outputs:
 
-- `tests/fixtures/signal_gold_set.json`: Gold Set v0.2 determinístico com 130 julgamentos e proveniência dos dois workbooks;
-- `docs/08_GITHUB_DISCOVERY_ANALYSIS.md`: distribuição por lens, padrões textuais de ruído, comparação com HN/RSS e possíveis pontos de calibração.
+- `tests/fixtures/signal_gold_set.json`: a deterministic Gold Set v0.2 with 130 judgments and provenance from both workbooks;
+- `docs/08_GITHUB_DISCOVERY_ANALYSIS.md`: distribution by lens, textual noise patterns, comparison with HN/RSS, and possible calibration points.
 
-O comando pode ser repetido sobre o próprio Gold Set v0.2: registros idênticos não são duplicados e qualquer conflito no conteúdo de um `item_id` interrompe o processo. A análise não altera labels, lentes, queries, filtros ou a Signal Policy e não utiliza LLM.
+The command can be repeated on the Gold Set v0.2 itself: identical records are not duplicated, and any conflict in an `item_id`'s content stops the process. The analysis does not change labels, lenses, queries, filters, or the Signal Policy, and does not use an LLM.
 
 ## M1E — Reddit Discovery
 
 **Status:** Implemented — real validation pending external Reddit approval.
 
-O coletor usa exclusivamente a [Reddit Data API](https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki), com OAuth application-only e escopo de leitura. As regras atuais exigem aprovação explícita; usos por ou em nome de empresas também exigem autorização escrita. Não existe fallback para scraping ou endpoints JSON anônimos.
+The collector uses exclusively the [Reddit Data API](https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki), with application-only OAuth and read scope. The current rules require explicit approval; use by or on behalf of companies also requires written authorization. There is no fallback to scraping or anonymous JSON endpoints.
 
-Depois de obter a aprovação e registrar um cliente compatível, configure no PowerShell:
+After obtaining approval and registering a compliant client, configure it on PowerShell:
 
 ```powershell
-$env:REDDIT_CLIENT_ID = "client-id-aprovado"
-$env:REDDIT_CLIENT_SECRET = "client-secret-aprovado"
-$env:INNOVATION_RADAR_REDDIT_USER_AGENT = "windows:namu-opportunity-radar:v0.1 (by /u/usuario-do-app)"
+$env:REDDIT_CLIENT_ID = "approved-client-id"
+$env:REDDIT_CLIENT_SECRET = "approved-client-secret"
+$env:INNOVATION_RADAR_REDDIT_USER_AGENT = "windows:namu-opportunity-radar:v0.1 (by /u/app-username)"
 $env:INNOVATION_RADAR_REDDIT_RECENCY_DAYS = "30"
 python -m innovation_radar run
 python -m innovation_radar export-review-sample
 ```
 
-Sem as três variáveis de acesso, a fonte Reddit registra uma falha explícita de autenticação e as demais fontes continuam isoladas. Credenciais não são carregadas de `.env`, persistidas no SQLite ou exibidas nos logs.
+Without the three access variables, the Reddit source records an explicit authentication failure and the other sources remain isolated. Credentials are not loaded from `.env`, persisted in SQLite, or shown in logs.
 
-As cinco lenses padrão são:
+The five default lenses are:
 
-| Lens | Comunidades candidatas padrão |
+| Lens | Default candidate communities |
 |---|---|
 | `personal_health_behavior` | `r/QuantifiedSelf`, `r/ouraring`, `r/Garmin` |
 | `unmet_needs` | `r/QuantifiedSelf`, `r/caregiving`, `r/disability` |
@@ -359,85 +359,85 @@ As cinco lenses padrão são:
 | `accessibility_care_interfaces` | `r/accessibility`, `r/caregiving`, `r/AgingParents` |
 | `personal_data_and_automation` | `r/selfhosted`, `r/homeassistant`, `r/ObsidianMD` |
 
-Cada comunidade é consultada por busca com `sort=new`; uma amostra pequena de `/new` também é combinada quando `INNOVATION_RADAR_REDDIT_NEW_LIMIT` é maior que zero. O timestamp do post aplica a janela exata, e o rodízio por lens e comunidade evita ordenar por upvotes. O mesmo ID encontrado em várias buscas gera um único `RawItem` com todas as proveniências preservadas.
+Each community is queried with `sort=new`; a small sample from `/new` is also combined when `INNOVATION_RADAR_REDDIT_NEW_LIMIT` is greater than zero. The post timestamp applies the exact window, and the round-robin by lens and community avoids ordering by upvotes. The same ID found across several searches yields a single `RawItem` with all provenances preserved.
 
-Para substituir lenses e comunidades:
+To replace lenses and communities:
 
 ```powershell
 $env:INNOVATION_RADAR_REDDIT_LENSES = '[{"id":"care_needs","description":"Care needs and workarounds","queries":["I wish","how do you manage"],"subreddits":["caregiving","AgingParents"]}]'
 ```
 
-A amostra CSV apresenta `r/<subreddit>` e todas as discovery lenses na coluna de proveniência. Score, número de comentários e flair aparecem apenas em `available_metrics`; `human_label` e `human_reason` permanecem vazios.
+The CSV sample shows `r/<subreddit>` and all discovery lenses in the provenance column. Score, number of comments, and flair appear only in `available_metrics`; `human_label` and `human_reason` remain empty.
 
-Por minimização de dados, o coletor preserva no máximo 2.000 caracteres do corpo público e não consulta perfis, mensagens privadas ou árvores de comentários. Autores deletados não são armazenados. O uso operacional deve também cumprir as obrigações do Reddit de remover conteúdo ou identificadores que tenham sido apagados na origem.
+For data minimization, the collector preserves at most 2,000 characters of the public body and does not query profiles, private messages, or comment trees. Deleted authors are not stored. Operational use must also comply with Reddit's obligations to remove content or identifiers that have been deleted at the source.
 
-## M2 — Filtros determinísticos em shadow mode
+## M2 — Deterministic filters in shadow mode
 
-O M2 calcula ruído objetivo depois da persistência do `RawItem`, sem remover ou alterar itens. Cada decisão é explicável e usa somente:
+M2 computes objective noise after the `RawItem` is persisted, without removing or changing items. Each decision is explainable and uses only:
 
 - `keep`;
 - `noise_flag`;
 - `discard_candidate`;
-- `rule_id`, motivo e evidência observável.
+- `rule_id`, reason, and observable evidence.
 
-Para reproduzir a avaliação sobre os 130 julgamentos do Gold Set v0.2:
+To reproduce the evaluation over the 130 judgments of Gold Set v0.2:
 
 ```powershell
 python -m innovation_radar evaluate-filters
 ```
 
-O comando valida `tests/fixtures/signal_gold_set.json` e recria `docs/10_DETERMINISTIC_FILTER_EVALUATION.md`. No conjunto atual, o cenário observado é 8 `discard_candidate`, 48 itens somente com `noise_flag` e 74 `keep`; os 8 candidatos são `irrelevant`, com zero `interesting` e zero `maybe`.
+The command validates `tests/fixtures/signal_gold_set.json` and recreates `docs/10_DETERMINISTIC_FILTER_EVALUATION.md`. In the current set, the observed scenario is 8 `discard_candidate`, 48 items with `noise_flag` only, and 74 `keep`; the 8 candidates are `irrelevant`, with zero `interesting` and zero `maybe`.
 
-O comando `run` também calcula essas decisões em shadow mode e as registra no relatório bruto. Todos os itens continuam em `DiscoveryResult.items` e no SQLite. Não há classificação de oportunidade, filtro de developer tooling, duplicação semântica, LLM ou componente do M3.
+The `run` command also computes these decisions in shadow mode and records them in the raw report. All items remain in `DiscoveryResult.items` and in SQLite. There is no opportunity classification, developer-tooling filter, semantic deduplication, LLM, or M3 component.
 
 ## M3 — Opportunity AI
 
-O M3 introduz a primeira camada de interpretação. Ele produz uma análise estruturada por item seguindo as perguntas de `docs/01_CONCEPT.md` e o contrato de `docs/02_ARCHITECTURE.md` seção 11. A saída não é um ranking e a recomendação (`investigate`, `watchlist`, `archive`) é uma sugestão; a decisão final permanece humana.
+M3 introduces the first interpretation layer. It produces a structured analysis per item following the questions in `docs/01_CONCEPT.md` and the contract in `docs/02_ARCHITECTURE.md` section 11. The output is not a ranking, and the recommendation (`investigate`, `watchlist`, `archive`) is a suggestion; the final decision remains human.
 
-O provedor de IA é substituível por trás do protocolo `OpportunityProvider`. O default é `heuristic-offline`: determinístico, sem rede e sem credenciais, para que o pipeline continue executável sem qualquer chave de API. Um provedor de LLM real implementaria o mesmo protocolo sem alterar o motor, a CLI ou o relatório.
+The AI provider is replaceable behind the `OpportunityProvider` protocol. The default is `heuristic-offline`: deterministic, without network and without credentials, so the pipeline stays runnable without any API key. A real LLM provider would implement the same protocol without changing the engine, the CLI, or the report.
 
-Somente itens que sobrevivem ao filtro determinístico do M2 são enviados ao provedor. Itens marcados como `discard_candidate` são pulados e listados no relatório com o motivo.
+Only items that survive the M2 deterministic filter are sent to the provider. Items marked as `discard_candidate` are skipped and listed in the report with the reason.
 
-Para analisar o Gold Set v0.2 e gravar o relatório:
+To analyze Gold Set v0.2 and write the report:
 
 ```powershell
 python -m innovation_radar analyze-opportunities
 ```
 
-Para analisar os itens já persistidos no SQLite local:
+To analyze the items already persisted in the local SQLite:
 
 ```powershell
 python -m innovation_radar analyze-opportunities --source sqlite
 ```
 
-Por default, o relatório é gravado em `docs/11_OPPORTUNITY_ANALYSIS.md`. Cada item recebe tipo de sinal, resumo, o que há de novo, nova capacidade, potencial de produto, relevância Namu, sinalização de developer tooling, cinco scores explicativos de 1 a 5, tração e a recomendação sugerida. Nenhum label humano do Gold Set é alterado e nenhuma chave de API é exigida, persistida ou registrada.
+By default, the report is written to `docs/11_OPPORTUNITY_ANALYSIS.md`. Each item receives a signal type, summary, what is new, new capability, product possibility, Namu relevance, a developer-tooling flag, five explanatory scores from 1 to 5, traction, and the suggested recommendation. No human Gold Set label is changed, and no API key is required, persisted, or logged.
 
 ## M4 — Calibration
 
-O M4 compara as recomendações do M3 com os labels humanos do Gold Set v0.2, seguindo `docs/06_EVALUATION.md`. Ele mede divergências; não valida o sistema como correto e não ajusta regras ou prompts automaticamente.
+M4 compares the M3 recommendations with the human labels of Gold Set v0.2, following `docs/06_EVALUATION.md`. It measures divergences; it does not validate the system as correct and does not adjust rules or prompts automatically.
 
-O mapeamento é explícito:
+The mapping is explicit:
 
 - `interesting` ↔ `investigate`
 - `maybe` ↔ `watchlist`
 - `irrelevant` ↔ `archive`
 
-Itens pulados pelo filtro determinístico do M2 (`discard_candidate`) nunca chegaram ao provedor; sua decisão efetiva é tratada como `archive`, então um item `interesting` pulado conta como falso negativo.
+Items skipped by the M2 deterministic filter (`discard_candidate`) never reached the provider; their effective decision is treated as `archive`, so a skipped `interesting` item counts as a false negative.
 
 ```powershell
 python -m innovation_radar calibrate
 ```
 
-Por default, o relatório é gravado em `docs/12_CALIBRATION.md`. Ele traz concordância exata, matriz de confusão, falsos positivos (sistema pede atenção quando o humano marcou `irrelevant`), falsos negativos (sistema arquiva quando o humano marcou `interesting`), divergências em `maybe` com o motivo humano, e recortes por fonte, tipo de sinal e developer tooling. Os falsos negativos têm prioridade sobre os falsos positivos. As divergências são evidência para decisão humana, não correção automática, e nenhum label do Gold Set é alterado.
+By default, the report is written to `docs/12_CALIBRATION.md`. It includes exact agreement, a confusion matrix, false positives (the system asks for attention when the human marked `irrelevant`), false negatives (the system archives when the human marked `interesting`), `maybe` divergences with the human reason, and breakdowns by source, signal type, and developer tooling. False negatives take priority over false positives. Divergences are evidence for human decision, not automatic correction, and no Gold Set label is changed.
 
-## Primeira fase
+## First phase
 
-O primeiro objetivo não é usar IA.
+The first goal is not to use AI.
 
-O MVP inicial deve provar que as fontes escolhidas conseguem trazer material que vale a pena analisar:
+The initial MVP must prove that the chosen sources can bring material worth analyzing:
 
-**Reddit + Hacker News + GitHub + Medium/RSS → normalização → SQLite → relatório Markdown**
+**Reddit + Hacker News + GitHub + Medium/RSS → normalization → SQLite → Markdown report**
 
-Somente depois de validar a matéria-prima entra a camada de IA.
+Only after validating the raw material does the AI layer come in.
 
-Leia `docs/03_MVP_SCOPE.md` antes de implementar.
+Read `docs/03_MVP_SCOPE.md` before implementing.
