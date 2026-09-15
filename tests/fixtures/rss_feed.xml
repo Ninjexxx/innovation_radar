@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Validation feed</title>
+    <item>
+      <guid>rss-item-1</guid>
+      <title>Wearable baseline experiment</title>
+      <link>https://example.com/rss/item-1</link>
+      <description>&lt;p&gt;An &lt;strong&gt;original&lt;/strong&gt; summary.&lt;/p&gt;</description>
+      <dc:creator>RSS Author</dc:creator>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <guid>https://example.com/rss/item-2</guid>
+      <title>Camera-based movement study</title>
+      <description>Second controlled item.</description>
+      <pubDate>Thu, 27 Aug 2026 12:05:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

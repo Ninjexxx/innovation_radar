@@ -1,0 +1,45 @@
+{
+  "/newstories.json": [101, 102],
+  "/showstories.json": [102, 103],
+  "/beststories.json": [104],
+  "/item/101.json": {
+    "id": 101,
+    "type": "story",
+    "by": "new-author",
+    "time": 1787832000,
+    "title": "A new low-cost sensing experiment",
+    "url": "https://example.com/new-experiment",
+    "score": 2,
+    "descendants": 1
+  },
+  "/item/102.json": {
+    "id": 102,
+    "type": "story",
+    "by": "show-author",
+    "time": 1787832060,
+    "title": "Show HN: Personal baseline prototype",
+    "text": "<p>A small <strong>working</strong> prototype.</p>",
+    "score": 5,
+    "descendants": 3
+  },
+  "/item/103.json": {
+    "id": 103,
+    "type": "story",
+    "by": "maker",
+    "time": 1787832120,
+    "title": "Show HN: Accessible voice interface",
+    "url": "https://example.com/voice-interface",
+    "score": 1,
+    "descendants": 0
+  },
+  "/item/104.json": {
+    "id": 104,
+    "type": "story",
+    "by": "popular-author",
+    "time": 1787832180,
+    "title": "A popular complementary story",
+    "url": "https://example.com/popular-story",
+    "score": 999,
+    "descendants": 200
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "total_count": 2,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 101,
+      "node_id": "R_kgDOFixture101",
+      "name": "pulse-lab",
+      "full_name": "example-health/pulse-lab",
+      "owner": {
+        "login": "example-health",
+        "id": 10
+      },
+      "html_url": "https://github.com/example-health/pulse-lab",
+      "description": "A wearable recovery experiment.",
+      "created_at": "2026-07-01T09:00:00Z",
+      "updated_at": "2026-08-25T11:00:00Z",
+      "pushed_at": "2026-08-24T17:30:00Z",
+      "language": "Python",
+      "topics": [
+        "wearable",
+        "personal-data"
+      ],
+      "stargazers_count": 3,
+      "forks_count": 1,
+      "open_issues_count": 2,
+      "archived": false,
+      "license": {
+        "spdx_id": "MIT",
+        "name": "MIT License"
+      },
+      "homepage": "https://example.com/pulse-lab",
+      "score": 1.0
+    },
+    {
+      "id": 202,
+      "node_id": "R_kgDOFixture202",
+      "name": "vision-kit",
+      "full_name": "example-labs/vision-kit",
+      "owner": {
+        "login": "example-labs",
+        "id": 20
+      },
+      "html_url": "https://github.com/example-labs/vision-kit",
+      "description": "Local computer vision interaction experiments.",
+      "created_at": "2025-10-10T10:00:00Z",
+      "updated_at": "2026-08-26T08:00:00Z",
+      "pushed_at": "2026-08-26T07:45:00Z",
+      "language": "Rust",
+      "topics": [
+        "computer-vision",
+        "on-device"
+      ],
+      "stargazers_count": 1500,
+      "forks_count": 120,
+      "open_issues_count": 15,
+      "archived": false,
+      "license": null,
+      "homepage": null,
+      "score": 0.8
+    }
+  ]
+}

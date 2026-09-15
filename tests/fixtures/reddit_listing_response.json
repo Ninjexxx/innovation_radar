@@ -1,0 +1,74 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "abc123",
+          "name": "t3_abc123",
+          "title": "I built a local dashboard to combine my sleep and symptom data",
+          "selftext": "I could not compare the exports from my wearable and symptom diary, so I made a small local dashboard and now use it every morning.",
+          "permalink": "/r/QuantifiedSelf/comments/abc123/local_health_dashboard/",
+          "url": "https://www.reddit.com/r/QuantifiedSelf/comments/abc123/local_health_dashboard/",
+          "author": "public_fixture_user",
+          "subreddit": "QuantifiedSelf",
+          "created_utc": 1787832000,
+          "score": 2,
+          "num_comments": 3,
+          "link_flair_text": "Project",
+          "is_self": true,
+          "over_18": false,
+          "spoiler": false,
+          "stickied": false,
+          "locked": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "def456",
+          "name": "t3_def456",
+          "title": "Does anyone know a simple way to coordinate care reminders?",
+          "selftext": "Our family uses three calendars and messages still get lost. I wish there were one private place for reminders and handoffs.",
+          "permalink": "/r/caregiving/comments/def456/care_reminders/",
+          "url": "https://www.reddit.com/r/caregiving/comments/def456/care_reminders/",
+          "author": "care_fixture_user",
+          "subreddit": "caregiving",
+          "created_utc": 1787828400,
+          "score": 0,
+          "num_comments": 1,
+          "link_flair_text": null,
+          "is_self": true,
+          "over_18": false,
+          "spoiler": false,
+          "stickied": false,
+          "locked": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "old789",
+          "name": "t3_old789",
+          "title": "An old controlled post",
+          "selftext": "Outside the configured window.",
+          "permalink": "/r/QuantifiedSelf/comments/old789/old_post/",
+          "url": "https://www.reddit.com/r/QuantifiedSelf/comments/old789/old_post/",
+          "author": "old_fixture_user",
+          "subreddit": "QuantifiedSelf",
+          "created_utc": 1779148800,
+          "score": 500,
+          "num_comments": 200,
+          "link_flair_text": null,
+          "is_self": true,
+          "over_18": false,
+          "spoiler": false,
+          "stickied": false,
+          "locked": false
+        }
+      }
+    ]
+  }
+}

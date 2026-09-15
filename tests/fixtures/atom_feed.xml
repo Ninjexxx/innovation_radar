@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Validation Atom feed</title>
+  <entry>
+    <id>tag:example.com,2026:atom-1</id>
+    <title>Unexpected passive sensing application</title>
+    <link rel="alternate" href="https://example.com/atom/item-1" />
+    <summary type="html">&lt;p&gt;A controlled Atom &lt;em&gt;summary&lt;/em&gt;.&lt;/p&gt;</summary>
+    <author><name>Atom Author</name></author>
+    <published>2026-08-27T12:10:00Z</published>
+  </entry>
+</feed>

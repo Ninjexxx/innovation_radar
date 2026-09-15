@@ -1,0 +1,11 @@
+{
+  "type": "file",
+  "encoding": "base64",
+  "size": 62,
+  "name": "README.md",
+  "path": "README.md",
+  "content": "IyBQdWxzZSBMYWIKCkEgd2VhcmFibGUgZXhwZXJpbWVudCBmb3IgcGVyc29uYWwgcmVjb3ZlcnkgZGF0YS4K",
+  "sha": "fixture-readme-sha",
+  "html_url": "https://github.com/example-health/pulse-lab/blob/main/README.md",
+  "download_url": "https://raw.githubusercontent.com/example-health/pulse-lab/main/README.md"
+}

@@ -1,0 +1,2580 @@
+{
+  "schema_version": "0.2",
+  "source_file": "review_sample.xlsx",
+  "source_sha256": "6ffd56b5f78e707642668425c23835b2de0484b89d4c0d0bedc18df217c0a1e3",
+  "source_workbooks": [
+    {
+      "source_file": "review_sample.xlsx",
+      "source_sha256": "6ffd56b5f78e707642668425c23835b2de0484b89d4c0d0bedc18df217c0a1e3",
+      "reviewed_item_count": 90,
+      "included_item_count": 90,
+      "excluded_item_count": 0,
+      "source_filter": null
+    },
+    {
+      "source_file": "review_sample_github.xlsx",
+      "source_sha256": "48d108ccfbfed71d57280626b8bdb7293b5b578432d0e84af787980435c9868b",
+      "reviewed_item_count": 43,
+      "included_item_count": 40,
+      "excluded_item_count": 3,
+      "source_filter": "github"
+    }
+  ],
+  "item_count": 130,
+  "allowed_labels": [
+    "interesting",
+    "maybe",
+    "irrelevant"
+  ],
+  "items": [
+    {
+      "item_id": "hacker_news:49464504",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "EU slips further behind China, US in race for critical minerals",
+      "url": "https://www.ft.com/content/c6220205-ee40-4b71-95c0-d53399a17cd1",
+      "published_at": "2026-08-27T13:20:55Z",
+      "author": "alephnerd",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Notícia informativa/geopolítica sem nova capacidade ou oportunidade clara de produto"
+    },
+    {
+      "item_id": "hacker_news:49463616",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: AI engineer course where every lesson is runnable Spring Boot project",
+      "url": "https://engineerprep.io/",
+      "published_at": "2026-08-27T12:22:10Z",
+      "author": "sanguluri",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 1,
+        "score": 3
+      },
+      "human_label": "maybe",
+      "human_reason": "É tipo uma trilha de aprendizado, pode ser útil para colaboradores internos aprender mas não gera nenhum valor no sentido de criação de uma tecnologia/produto pra Namu, é um produto fechado"
+    },
+    {
+      "item_id": "hacker_news:49438052",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Dolly Parton has died",
+      "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "published_at": "2026-08-25T18:02:22Z",
+      "author": "helsinkiandrew",
+      "short_description": "https://www.cnn.com/2026/08/25/entertainment/dolly-parton-de... https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-d..., https://archive.ph/w4vsE https://www.hollywoodreporter.com/music/music-news/dolly-par...",
+      "available_metrics": {
+        "comments": 244,
+        "score": 1576
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É a notícia da morte de uma pessoa"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "AI helps design new materials that work in the real world",
+      "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+      "published_at": "2026-08-26T09:00:00Z",
+      "author": "Zach Winn | MIT News",
+      "short_description": "The “CrysVCD” tool developed at MIT could cut the huge amounts of time and money spent on screening out chemically unstable designs.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Artigo genérico sobre IA"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/open-health-stack-software-foundation/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "Building the future of global health, together",
+      "url": "https://blog.google/innovation-and-ai/technology/health/open-health-stack-software-foundation/",
+      "published_at": "2026-07-09T08:00:00Z",
+      "author": "Fred HerschSenior Product ManagerGoogle Health",
+      "short_description": "Collage of different pairs of people interacting",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Pode virar oportunidade, mas ainda parece experimental e não tem mais detalhes de como começar ou testar"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/3bb24cfb5e5d",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "VitalChain: Building a Smarter Future for Health Data with AI and Blockchain",
+      "url": "https://medium.com/@myvitalchain/vitalchain-building-a-smarter-future-for-health-data-with-ai-and-blockchain-3bb24cfb5e5d?source=rss------healthtech-5",
+      "published_at": "2026-08-27T11:52:23Z",
+      "author": "Vital Chain",
+      "short_description": "From wearable health tracking to privacy-focused data infrastructure, VitalChain is exploring a new model for digital healthcare built… Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "É um artigo informativo que tem seu valor, mas não podemos fazer nada com essas informações"
+    },
+    {
+      "item_id": "hacker_news:49464474",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Mljar Studio: The Claude Code for Data Science",
+      "url": "https://www.youtube.com/watch?v=rIn32b8P7Ns",
+      "published_at": "2026-08-27T13:18:22Z",
+      "author": "pplonski86",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "maybe",
+      "human_reason": "É um vídeo com propósito de ensinar, mas ainda sim é genérico"
+    },
+    {
+      "item_id": "hacker_news:49463403",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: BAIhAIs – an autonomous art school for AI agents",
+      "url": "https://baihais.com/",
+      "published_at": "2026-08-27T12:05:05Z",
+      "author": "demonstrandom",
+      "short_description": "How to give AI taste? Send it to art school. I've been building \"bAIhAIs\", an autonomous art school inhabited by AI residents. Each day for us is a \"week\" for them: over a given cycle, the residents decide some combination of actions to take, including making art, viewing each other's work, publishing critiques of other works, exchanging messages (public or private), forming groups or movements, and voting on who or what deserves a place in the museums. Agents can also price and sell art (there…",
+      "available_metrics": {
+        "comments": 1,
+        "score": 3
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Não tem vínculo com o nosso propósito"
+    },
+    {
+      "item_id": "hacker_news:49458161",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "published_at": "2026-08-27T01:12:55Z",
+      "author": "mfiguiere",
+      "short_description": "https://www.theinformation.com/articles/nvidia-agrees-buy-op... (paywalled) https://techcrunch.com/2026/08/24/hugging-face-reportedly-in...",
+      "available_metrics": {
+        "comments": 630,
+        "score": 1411
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É um artigo que tem haver com IA, mas é informativo, não é possível criar impacto inicial"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "Generating scenarios for extreme events, without extreme data",
+      "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+      "published_at": "2026-08-24T18:00:00Z",
+      "author": "Jennifer Chu | MIT News",
+      "short_description": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Artigo interessante de IA mas genérico e sem vínculo com o que podemos construir"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "published_at": "2026-06-17T15:00:00Z",
+      "author": "Mike SchaekermannResearch Lead",
+      "short_description": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "available_metrics": {},
+      "human_label": "interesting",
+      "human_reason": "Esse contéudo não tem como testar inicialmente, mas o conteúdo é muito interessante e lembra o Hippocratic AI"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/40b37d3e4c32",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "Why Digitally Enabled Rehabilitation Centers Represent the Future of Healthcare",
+      "url": "https://medium.com/@rehab.software.ai/why-digitally-enabled-rehabilitation-centers-represent-the-future-of-healthcare-40b37d3e4c32?source=rss------healthtech-5",
+      "published_at": "2026-08-27T11:20:40Z",
+      "author": "Rehab Software Ai",
+      "short_description": "Digital transformation is reshaping rehabilitation services by making clinical and operational processes more connected. Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Conteúdo incompleto mas com proposta curiosa"
+    },
+    {
+      "item_id": "hacker_news:49464464",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Why LLMs keep failing their Big Five personality tests",
+      "url": "https://hollisrobbinsanecdotal.substack.com/p/teaching-the-ocean-to-swim",
+      "published_at": "2026-08-27T13:17:48Z",
+      "author": "HR01",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Conteúdo legal mas informativo sem valor inicial"
+    },
+    {
+      "item_id": "hacker_news:49463111",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Gluestack – Open-Source UI Components for React and React Native",
+      "url": "https://gluestack.io/",
+      "published_at": "2026-08-27T11:34:41Z",
+      "author": "Harish_0089",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 3
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor para a Namu, é uma ferramenta interessante mas não usaríamos"
+    },
+    {
+      "item_id": "hacker_news:49433292",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Apple introduces M6 and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "published_at": "2026-08-25T13:01:22Z",
+      "author": "interpol_p",
+      "short_description": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powe... https://9to5mac.com/2026/08/25/m6-mac-mini-vs-m4-mac-mini-he...",
+      "available_metrics": {
+        "comments": 1277,
+        "score": 1300
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É um conteúdo informativo da Apple, não tem valor e nem é possível testar nada"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "Paving the way for greener ammonia production",
+      "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
+      "published_at": "2026-08-20T18:45:00Z",
+      "author": "David L. Chandler | Department of Materials Science and Engineering",
+      "short_description": "New MIT research could lead to better materials for a fossil-fuel-free process for making the chemical that's essential to fertilizer and other products.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Sem conteúdo que agregue a Namu"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/company-news/outreach-and-initiatives/google-org/ai-training-rural-health-clinics/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "Google.org and the Johnson & Johnson Foundation are launching a $10 million initiative to train rural U.S. healthcare workers in AI.",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/ai-training-rural-health-clinics/",
+      "published_at": "2026-04-14T08:30:00Z",
+      "author": "",
+      "short_description": "A doctor speaks with a man that's pointing at his phone",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "É relacionado a healthcare, mas é apenas informativo"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/f1edcf0c9dc1",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "The Hospital’s Open Secret: Inside the Rise of Shadow AI in Healthcare",
+      "url": "https://medium.com/@barkatalideshi354/the-hospitals-open-secret-inside-the-rise-of-shadow-ai-in-healthcare-f1edcf0c9dc1?source=rss------healthtech-5",
+      "published_at": "2026-08-26T19:11:11Z",
+      "author": "Mudasar Ali",
+      "short_description": "A nurse finishing a night shift checks a drug interaction with an AI chatbot on her personal phone. A resident overwhelmed by discharge… Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "É informativo, por mais que seja relacionado a saúde"
+    },
+    {
+      "item_id": "hacker_news:49464459",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Show HN: RealDiff – runtime behavior diffing for pull requests (six languages)",
+      "url": "https://github.com/issacnitin/RealDiff",
+      "published_at": "2026-08-27T13:17:31Z",
+      "author": "issacnitin",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É uma ferramenta de revisão de código, é possível testar mas não tem vínculo com o que queremos"
+    },
+    {
+      "item_id": "hacker_news:49452037",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Build your own theme park",
+      "url": "https://www.magicpatterns.com/theme-park",
+      "published_at": "2026-08-26T16:40:01Z",
+      "author": "thealexanderlee",
+      "short_description": "I built an agent that helps you build Rollercoaster Tycoon-influenced theme parks. You can prompt something like “Build me a cool theme park” and it’ll build a cohesive theme park with multiple worlds and connected with paths and rides. The weird part is that I built it using the same ideas we use to make AI-generated websites follow a company’s design system. I work as an engineer at Magic Patterns, focused on building our Design System Agent, aimed to use your existing brand, components, and…",
+      "available_metrics": {
+        "comments": 18,
+        "score": 48
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49437283",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Nitter and XCancel receive cease and desist notices",
+      "url": "https://github.com/zedeus/nitter/issues/1442",
+      "published_at": "2026-08-25T17:08:21Z",
+      "author": "Banditoz",
+      "short_description": "https://github.com/zedeus/nitter/issues/1442 https://xcancel.com/",
+      "available_metrics": {
+        "comments": 1117,
+        "score": 1178
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+      "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+      "published_at": "2026-08-18T16:35:00Z",
+      "author": "Rachel Gordon | MIT CSAIL",
+      "short_description": "A new method for surgically removing training examples from a model reveals that as datasets grow, the link between what a model learns and what it produces dissolves.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "An update on our mental health work",
+      "url": "https://blog.google/innovation-and-ai/technology/health/mental-health-updates/",
+      "published_at": "2026-04-07T10:00:00Z",
+      "author": "Dr. Megan Jones BellClinical DirectorConsumer and Mental Health",
+      "short_description": "\"Google Safety Updates: AI & Mental Health\" is overlaid on an image of three Googlers.",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo informativo bem interessante, mas sem a possibilidade de testar ou ser um ativo proprietário porque é do Gemini"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/fcbb9b3ba9bd",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "How to Build a Pharmacovigilance Case Intake Platform for Multi-Source Safety Reporting",
+      "url": "https://medium.com/@mike.humen/how-to-build-a-pharmacovigilance-case-intake-platform-for-multi-source-safety-reporting-fcbb9b3ba9bd?source=rss------healthtech-5",
+      "published_at": "2026-08-26T13:44:05Z",
+      "author": "Mike Humen",
+      "short_description": "How to build a pharmacovigilance case intake platform for multi-source safety reporting: architecture, roadmap, and compliance essentials. Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo informativo relacionado a saúde e a farmaco, mas sem possibilidade de teste"
+    },
+    {
+      "item_id": "hacker_news:49464448",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Cohere Parse: Enterprise document intelligence at scale",
+      "url": "https://cohere.com/blog/parse",
+      "published_at": "2026-08-27T13:16:34Z",
+      "author": "tulpa",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 3
+      },
+      "human_label": "interesting",
+      "human_reason": "É possível testar e tem grande uso comercial mesmo que não agora, mas futuro"
+    },
+    {
+      "item_id": "hacker_news:49462628",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Drag-and-drop seating charts for weddings and events",
+      "url": "https://www.planseats.com/",
+      "published_at": "2026-08-27T10:42:48Z",
+      "author": "not_wowinter14",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 4
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49449507",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "GLM-5.3-Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "published_at": "2026-08-26T14:08:50Z",
+      "author": "Philpax",
+      "short_description": "https://news.ycombinator.com/item?id=49450353",
+      "available_metrics": {
+        "comments": 538,
+        "score": 1077
+      },
+      "human_label": "interesting",
+      "human_reason": "Por mais que não queremos focar em modelos de IA, é interessante e podemos testar"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "Q&A: Rethinking how innovation happens",
+      "url": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+      "published_at": "2026-08-17T19:50:00Z",
+      "author": "Jason Sparapani | Department of Materials Science and Engineering",
+      "short_description": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
+      "available_metrics": {},
+      "human_label": "interesting",
+      "human_reason": "É informativo, mas classifiquei como interessante apenas por se tratar de inovação"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "The latest AI news we announced in March 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "published_at": "2026-04-01T13:00:00Z",
+      "author": "Blog Team",
+      "short_description": "March 2026 AI Recap showing new updates",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "É legal porque fala de saúde, mas não pode ser testado, é apenas informativo"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/42f49b0f4c45",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "Clinical AI in India : A Good Algorithm Is Not Good Business",
+      "url": "https://medium.com/@avinashdeo/clinical-ai-in-india-a-good-algorithm-is-not-good-business-42f49b0f4c45?source=rss------healthtech-5",
+      "published_at": "2026-08-26T12:33:50Z",
+      "author": "Avinash Deo",
+      "short_description": "One thought stayed with me after the 3rd IIMA Healthcare Summit 2026 on “Advancing AI in Healthcare”: Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Mesmo que seja relacionado a saúde, o conteúdo é muito informativo"
+    },
+    {
+      "item_id": "hacker_news:49464447",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Show HN: KnotQ – Calendar and Organization Planner",
+      "url": "https://www.knotq.com/",
+      "published_at": "2026-08-27T13:16:33Z",
+      "author": "enigmurl",
+      "short_description": "KnotQ allows you to schedule reminders, assignments, and events within markdown documents and view them in a unified calendar.",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Para uso pessoal é ótimo, mas totalmente irrelevante comercialmente"
+    },
+    {
+      "item_id": "hacker_news:49461817",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: The load-bearing vocabulary of Claude",
+      "url": "https://louisabraham.github.io/load-bearing/",
+      "published_at": "2026-08-27T08:59:49Z",
+      "author": "Labo333",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 9
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Conteúdo informativo"
+    },
+    {
+      "item_id": "hacker_news:49448321",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "AWS Acquires DuckLabs",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+      "published_at": "2026-08-26T12:59:26Z",
+      "author": "onderkalaci",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 308,
+        "score": 1063
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Conteúdo informativo"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+      "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+      "published_at": "2026-08-10T19:25:00Z",
+      "author": "Alex Shipps | MIT CSAIL",
+      "short_description": "“GeoPT” helps AI models understand the basics of physics so they can simulate how objects respond to things like wind and water more efficiently and accurately.",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo legal, mas não tem como testar"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/med-gemma-impact-challenge/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "Announcing the winners of the MedGemma Impact Challenge",
+      "url": "https://blog.google/innovation-and-ai/technology/health/med-gemma-impact-challenge/",
+      "published_at": "2026-03-26T16:00:00Z",
+      "author": "Fereshteh MahvarStaff Medical Software EngineerGoogle Research",
+      "short_description": "MedGemma logo",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Nós já conhecemos o MedGemma e testamos, no entanto esse conteúdo é informativo"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/1750427ffc87",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "Redefining Smart Jewelry: Inside KEHON Tech’s Zero-Subscription AI Ring Architecture",
+      "url": "https://medium.com/@kehontech/redefining-smart-jewelry-inside-kehon-techs-zero-subscription-ai-ring-architecture-1750427ffc87?source=rss------healthtech-5",
+      "published_at": "2026-08-26T04:21:21Z",
+      "author": "Kingston Yeh",
+      "short_description": "How Macau Ke Hon Technology Co., Ltd. (澳門科浤科技有限公司) blends British luxury aesthetics with precision wellness intelligence. Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49464446",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "The Breed Is Back Commodore Is Back Alien Breed 35th Anniversary Collection [video]",
+      "url": "https://www.youtube.com/watch?v=8Ck3vhJ6S_E",
+      "published_at": "2026-08-27T13:16:22Z",
+      "author": "doener",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49462176",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: NexDM – A fast, 64-segment download manager in Rust and Tauri",
+      "url": "https://nexdm.in/",
+      "published_at": "2026-08-27T09:48:53Z",
+      "author": "Technews2026",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49433316",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "New Mac Studio with M5 Max and M5 Ultra",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "published_at": "2026-08-25T13:03:17Z",
+      "author": "interpol_p",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 552,
+        "score": 820
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "Solving the solvent problem",
+      "url": "https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804",
+      "published_at": "2026-08-04T18:50:00Z",
+      "author": "Steve Nadis | Department of Nuclear Science and Engineering",
+      "short_description": "By focusing on electrolytes, MIT scientists are making sodium-metal batteries a more practical energy storage option.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Artigo informativo mas sem valor para o que queremos"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/google-docmorris-partnership/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "A more personal digital health experience for people in Europe",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-docmorris-partnership/",
+      "published_at": "2026-03-19T06:00:00Z",
+      "author": "Dr. Susan ThomasDirectorGoogle for Health",
+      "short_description": "Illustration of various medical images including a stethoscope and heart on a blue background, surrounded by differently colored lines",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo informativo com proposta interessante, não tem como testar"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/90e8b34bc1ca",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "Regulatory Readiness in the Age of AI: Bridging Controlled and Uncontrolled Claims",
+      "url": "https://sara-z.medium.com/regulatory-readiness-in-the-age-of-ai-bridging-controlled-and-uncontrolled-claims-90e8b34bc1ca?source=rss------healthtech-5",
+      "published_at": "2026-08-25T20:02:45Z",
+      "author": "Sara Zolfaghari M.S.",
+      "short_description": "Navigating Product Development, AI, and Regulatory Responsibility in Dietary Supplements and Nutraceuticals Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo interessante, mas não consegui ler completo pela limitação do Medium"
+    },
+    {
+      "item_id": "hacker_news:49464445",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "I didn't plan to let an AI manage my to-do list",
+      "url": "https://heyjonny.dev/posts/ai-managing-my-to-do-list/",
+      "published_at": "2026-08-27T13:16:12Z",
+      "author": "heyjonny",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Artigo informativo"
+    },
+    {
+      "item_id": "hacker_news:49455557",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: We built the smallest dual-band aircraft tracker",
+      "url": "https://pantsforbirds.com/the-worlds-smallest-dual-band-ads-b-receiver-module/",
+      "published_at": "2026-08-26T20:38:44Z",
+      "author": "CoolNamesAllTkn",
+      "short_description": "We've been building open source embedded ADS-B receivers for a while, and spent the past 8 months smallifying our existing receiver tech with a new chip from Semtech. Ask me anything about ADSB or hardware manufacturing!",
+      "available_metrics": {
+        "comments": 6,
+        "score": 35
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49458418",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "published_at": "2026-08-27T01:46:22Z",
+      "author": "GrumpySciGuy",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 507,
+        "score": 750
+      },
+      "human_label": "maybe",
+      "human_reason": "Classifiquei como maybe porque podemos testar, mas não dá para medir o valor"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "The benefits of medical AI assistance vary based on user expertise",
+      "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+      "published_at": "2026-08-04T09:00:00Z",
+      "author": "Adam Zewe | MIT News",
+      "short_description": "Study finds non-experts deferred to LLM-based diagnostic assistance, even when it was wrong, while clinicians caught AI errors.",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Só classifiquei como maybe porque envolve IA e saúde, mas é puramente informativo"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/google-health-check-up-2026/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "The Check Up with Google 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-health-check-up-2026/",
+      "published_at": "2026-03-17T16:00:00Z",
+      "author": "Dr. Michael HowellChief Health Officer, Google",
+      "short_description": "At Google’s annual health event, The Check Up, we shared how our products, research and partnerships are making the most of AI to help everyone live healthier lives.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum porque a página não tem nada de interessante"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/0ec5e76961db",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "Why Healthcare Startups Need Clinical Expertise Before They Scale",
+      "url": "https://medium.com/@healthboardadvisors/why-healthcare-startups-need-clinical-expertise-before-they-scale-0ec5e76961db?source=rss------healthtech-5",
+      "published_at": "2026-08-25T19:21:26Z",
+      "author": "Healthboardadvisors",
+      "short_description": "Healthcare startups face a unique challenge. Building a great technology product is only one part of the equation. A healthcare company… Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "interesting",
+      "human_reason": "Classificado como interessante apenas pelo artigo combinar bastante com a nossa empresa Namu, mas é apenas informativo"
+    },
+    {
+      "item_id": "hacker_news:49464421",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Piloting the first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "published_at": "2026-08-27T13:14:50Z",
+      "author": "xnx",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Artigo informativo"
+    },
+    {
+      "item_id": "hacker_news:49410814",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+      "url": "https://tarjan.itch.io/thoreaubasic",
+      "published_at": "2026-08-23T17:48:12Z",
+      "author": "Gorsefound",
+      "short_description": "I started writing Thoreau BASIC because I wanted a small, old-fashioned BASIC interpreter: line numbers, immediate mode, simple graphics, strings, arrays, the sort of environment where the computer starts with a \"Ready\" prompt and you can immediately make it do something. Then I wondered: why should it need an operating system? So I made it boot directly on x64 machines using UEFI. The UEFI version uses the Graphics Output Protocol for its framebuffer and gets its keyboard input directly from t…",
+      "available_metrics": {
+        "comments": 43,
+        "score": 155
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Deu problema 404"
+    },
+    {
+      "item_id": "hacker_news:49451448",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Tim Curry has died",
+      "url": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+      "published_at": "2026-08-26T16:03:37Z",
+      "author": "mykowebhn",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 222,
+        "score": 695
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Totalmente irrelevante, é a notícia da morte de alguém"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+      "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+      "published_at": "2026-08-03T19:50:00Z",
+      "author": "Institute for Data, Systems, and Society",
+      "short_description": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Artigo informativo genérico"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/google-check-up-health-ai-updates-2026/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "How Google is using AI to improve health for everyone",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-check-up-health-ai-updates-2026/",
+      "published_at": "2026-03-17T15:00:00Z",
+      "author": "Dr. Michael HowellChief Health Officer, Google",
+      "short_description": "Collage of a patient receiving healthcare treatment",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo informativo relacionado a saúde mas sem um valor maior"
+    },
+    {
+      "item_id": "rss:medium_healthtech:https://medium.com/p/5fd1a61d0bc5",
+      "source": "rss",
+      "source_surface_or_feed": "Medium — Healthtech [medium_healthtech]",
+      "title": "TLH, Advocates & Solicitors advises Arete Institute of Medical Sciences Private Limited on its sale…",
+      "url": "https://medium.com/@communicationstlh/tlh-advocates-solicitors-advises-arete-institute-of-medical-sciences-private-limited-on-its-sale-5fd1a61d0bc5?source=rss------healthtech-5",
+      "published_at": "2026-08-25T08:48:31Z",
+      "author": "TLH Advocates and Solicitors",
+      "short_description": "TLH, Advocates & Solicitors represented Arete Institute of Medical Sciences Private Limited in the divestment of its 250-bed… Continue reading on Medium »",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49464414",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Aphantasia Beginner's Guide",
+      "url": "https://aphantasia.com/guide",
+      "published_at": "2026-08-27T13:14:20Z",
+      "author": "ksec",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49437049",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "url": "https://github.com/jeffhajewski/latticedb",
+      "published_at": "2026-08-25T16:52:05Z",
+      "author": "smiths1999",
+      "short_description": "We have been using graph DBs more and more at work. I found them painful to work with locally and decided to try and build something better.",
+      "available_metrics": {
+        "comments": 49,
+        "score": 181
+      },
+      "human_label": "interesting",
+      "human_reason": "Tem valor real mesmo que não inicial e é possível testar"
+    },
+    {
+      "item_id": "hacker_news:49448210",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Qwen3.8-Flash-Next",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "published_at": "2026-08-26T12:52:12Z",
+      "author": "tosh",
+      "short_description": "https://imageat.com/models/qwen-3-8-27b-uncensored",
+      "available_metrics": {
+        "comments": 223,
+        "score": 680
+      },
+      "human_label": "interesting",
+      "human_reason": "É um novo modelo de IA que é possível testar e nos auxiliar"
+    },
+    {
+      "item_id": "rss:mit_ai:https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+      "source": "rss",
+      "source_surface_or_feed": "MIT News — Artificial Intelligence [mit_ai]",
+      "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+      "url": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+      "published_at": "2026-07-30T21:00:00Z",
+      "author": "Rachel Gordon | Alex Shipps | MIT CSAIL",
+      "short_description": "Director of CSAIL and MIT professor honored for her contributions to robotics, artificial intelligence, and autonomous systems.",
+      "available_metrics": {},
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "rss:google_health:https://blog.google/innovation-and-ai/technology/health/google-earth-ai-global-public-health/",
+      "source": "rss",
+      "source_surface_or_feed": "Google — Health [google_health]",
+      "title": "How Google Earth AI’s planetary intelligence is supporting global public health",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai-global-public-health/",
+      "published_at": "2026-03-13T15:00:00Z",
+      "author": "Yossi MatiasVP & GMGoogle Research",
+      "short_description": "Top-down satellite view of a town featuring a distinct, densely packed circular historic center with red roofs, surrounded by newer residential neighborhoods and a vast geometric patchwork of green and tan agricultural fields.",
+      "available_metrics": {},
+      "human_label": "maybe",
+      "human_reason": "Artigo informativo mas somente isso"
+    },
+    {
+      "item_id": "hacker_news:49464404",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "A self-hostable MCP for all your connections, memory, skills, and secrets",
+      "url": "https://www.npmjs.com/package/@lanes-sh/link",
+      "published_at": "2026-08-27T13:13:25Z",
+      "author": "s-xyz",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 3
+      },
+      "human_label": "interesting",
+      "human_reason": "É possível testar mesmo que não saibamos o valor comercial"
+    },
+    {
+      "item_id": "hacker_news:49460715",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Forgot the Command? Stay in the Terminal",
+      "url": "https://humansh.com/",
+      "published_at": "2026-08-27T06:38:27Z",
+      "author": "mdarabi",
+      "short_description": "Describe what you need, HumanSH writes the command directly into your terminal for review — no chatbot tab, no copy-paste, no lost flow.",
+      "available_metrics": {
+        "comments": 2,
+        "score": 2
+      },
+      "human_label": "maybe",
+      "human_reason": "É uma ferramenta mas necessário mais aprofundamento para entender o valor"
+    },
+    {
+      "item_id": "hacker_news:49437069",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "My Friend Aaron",
+      "url": "https://rorz.io/writing/my-friend-aaron",
+      "published_at": "2026-08-25T16:53:33Z",
+      "author": "sarreph",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 182,
+        "score": 658
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49464391",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "US Government Designates Host of Noblogs.org a \"Global Terrorist\"",
+      "url": "https://crimethinc.com/2026/08/27/us-government-designates-host-of-noblogsorg-a-global-terrorist",
+      "published_at": "2026-08-27T13:12:10Z",
+      "author": "robtherobber",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 5
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49445286",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Buslens – where can I get to by bus? (UK)",
+      "url": "https://rupertlinacre.com/buslens/",
+      "published_at": "2026-08-26T07:36:52Z",
+      "author": "RobinL",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 55,
+        "score": 79
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Não foi possível acessar"
+    },
+    {
+      "item_id": "hacker_news:49452709",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "U.S. State Department pauses immigrant visa applications",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "published_at": "2026-08-26T17:22:16Z",
+      "author": "sss111",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 963,
+        "score": 643
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49464387",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Show HN: BirthdayVideoAI – AI birthday video maker for wishes, invitations",
+      "url": "https://birthdayvideo.ai",
+      "published_at": "2026-08-27T13:11:49Z",
+      "author": "BirthdayVideo",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "hacker_news:49455537",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Devx – Autonomous AI coding agent built for Android Termux and desktop",
+      "url": "https://github.com/apvcode/Termux-Dev",
+      "published_at": "2026-08-26T20:37:12Z",
+      "author": "apvcode",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 1,
+        "score": 12
+      },
+      "human_label": "interesting",
+      "human_reason": "É possível testar mesmo que não saibamos o valor comercial"
+    },
+    {
+      "item_id": "hacker_news:49452990",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "url": "https://github.com/tailscale/tailcat",
+      "published_at": "2026-08-26T17:42:22Z",
+      "author": "nderjung",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 110,
+        "score": 610
+      },
+      "human_label": "interesting",
+      "human_reason": "É possível testar por mais que seja nichado é muito interessante e recente"
+    },
+    {
+      "item_id": "hacker_news:49464368",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Building my first SaaS without a coding background",
+      "url": "https://www.indiehackers.com/post/building-my-first-saas-without-a-coding-background-ba8468081a",
+      "published_at": "2026-08-27T13:11:08Z",
+      "author": "zahvox",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Artigo informativo e demonstrativo"
+    },
+    {
+      "item_id": "hacker_news:49455695",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Every push-up becomes an attack in a camera-counted RPG game",
+      "url": "https://pushup.quest/",
+      "published_at": "2026-08-26T20:48:48Z",
+      "author": "not_wowinter13",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 7,
+        "score": 21
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Legal mas sem valor para uso comercial"
+    },
+    {
+      "item_id": "hacker_news:49434378",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "published_at": "2026-08-25T14:06:02Z",
+      "author": "bmulholland",
+      "short_description": "https://www.bloomberg.com/news/articles/2026-08-25/openai-cl..., https://archive.ph/yCTrr",
+      "available_metrics": {
+        "comments": 372,
+        "score": 581
+      },
+      "human_label": "maybe",
+      "human_reason": "GPU da OpenAI, com mais desempenho por watt e menor latencia que sistemas da Nvidia"
+    },
+    {
+      "item_id": "hacker_news:49464351",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Hot Chips 2026: Fujitsu's Monaka CPU – By Chester Lam",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-fujitsus-monaka-cpu",
+      "published_at": "2026-08-27T13:09:37Z",
+      "author": "rbanffy",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 3
+      },
+      "human_label": "irrelevant",
+      "human_reason": "CPU de 144 nucleos para data center com foco em IA e eficiencia energetica, nao tem impacto direto para Namu"
+    },
+    {
+      "item_id": "hacker_news:49441375",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "url": "https://github.com/swimmingbrain/texbrain",
+      "published_at": "2026-08-25T22:08:50Z",
+      "author": "swimmingbrain",
+      "short_description": "I'm a master's engineering student and a big fan of LaTeX, which I used for my thesis and research articles. I have used Overleaf and that was fine until I wanted to git sync, which unfortunately sits behind a paywall. Since I didn't want to pay subscriptions for things that should simply just work, I built the editor I wanted in my free time, where you open a tab, write LaTeX, get your PDF and the files stay all in one folder on my disk. TeXbrain is a static site with no backend. pdfTeX is com…",
+      "available_metrics": {
+        "comments": 27,
+        "score": 117
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Ferramenta para rodar um editor LaTeX no browser"
+    },
+    {
+      "item_id": "hacker_news:49433450",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "New Mac mini, featuring M6 and M5 Pro",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+      "published_at": "2026-08-25T13:13:00Z",
+      "author": "runako",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 355,
+        "score": 543
+      },
+      "human_label": "maybe",
+      "human_reason": "Noticia - Apple lança Mac mini com forte salto em IA e foco em processamento local e agentes de IA continuos. Pode ser interessante para experiencias wellness baseadas em IA privada"
+    },
+    {
+      "item_id": "hacker_news:49464343",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Hot Chips 2026: Intel's Crescent Island – By George Cozma",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-intels-crescent-island",
+      "published_at": "2026-08-27T13:09:25Z",
+      "author": "rbanffy",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "maybe",
+      "human_reason": "Notícia sobre nova GPU de datacenter da Intel com capacidade de memória de até 480 GB"
+    },
+    {
+      "item_id": "hacker_news:49450500",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: TexLite – A lightweight self-hosted LaTeX workspace",
+      "url": "https://github.com/SWUFE-DB-Group/TexLite",
+      "published_at": "2026-08-26T15:07:44Z",
+      "author": "thisispi",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 1,
+        "score": 21
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Editor self-hosted para LaTeX"
+    },
+    {
+      "item_id": "hacker_news:49448819",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Meta reaches $17B settlement over social media harms to children",
+      "url": "https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/",
+      "published_at": "2026-08-26T13:28:32Z",
+      "author": "bhouston",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 489,
+        "score": 521
+      },
+      "human_label": "maybe",
+      "human_reason": "Um talvez muito talvez. Meta terá que limitar e modificar a experi^ncia de adolescentes em suas plataformas por causa de vício. Pode sinalziar uma tendência de maior preocupação com efeitos comportamentais de produtos digitais"
+    },
+    {
+      "item_id": "hacker_news:49464315",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "No moving average wins twice",
+      "url": "https://turnmarks.com/filters",
+      "published_at": "2026-08-27T13:07:52Z",
+      "author": "tapweights",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Artigo comparando formas de contruir uma média móvel"
+    },
+    {
+      "item_id": "hacker_news:49450273",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Bury.lol – a $2 pixel-art graveyard for things that died",
+      "url": "https://bury.lol/",
+      "published_at": "2026-08-26T14:55:06Z",
+      "author": "alertcubes",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 11
+      },
+      "human_label": "irrelevant",
+      "human_reason": "O site é um \"cemitério digital\". Serve para criar uma \"sepultura\" digital para algo que morreu ou ficou para trás na itnernet"
+    },
+    {
+      "item_id": "hacker_news:49449576",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Twitter Viewer – View Twitter Without Account",
+      "url": "https://twitterwebviewer.com/",
+      "published_at": "2026-08-26T14:11:39Z",
+      "author": "motownphilly",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 318,
+        "score": 520
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Site para visualizar twitter sem conta"
+    },
+    {
+      "item_id": "hacker_news:49464314",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "url": "https://aiandeducation.mit.edu/report/",
+      "published_at": "2026-08-27T13:07:45Z",
+      "author": "pbui",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Apenas um relatório sobre IA e educaçõ discutindo como a IA está mudando a forma de ensinar e aprender"
+    },
+    {
+      "item_id": "hacker_news:49449648",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: How much of Hacker News is about AI?",
+      "url": "https://hnstats.com",
+      "published_at": "2026-08-26T14:16:05Z",
+      "author": "beekthos",
+      "short_description": "This website counts titles containing the standalone word \"AI\", case-sensitive and word-bounded. \"OpenAI\" doesn't count. \"AI-powered\" does. There's a toggle for a wider vocabulary: artificial intelligence spelled out, LLM, GPT, and model and vendor names. Some quick stats: - 14.4% of new HN titles this year, against 10.9% in 2025. On the wider vocabulary, 21.9% and 16.1%. - First month above 1% was Oct 2016. Above 5%, Feb 2023. Above 10%, May 2025. - Over the last five years the quietest month…",
+      "available_metrics": {
+        "comments": 46,
+        "score": 71
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Um contador para dizer quanto tempo desde a última notícia com o termo \"AI\" no título"
+    },
+    {
+      "item_id": "hacker_news:49439017",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+      "published_at": "2026-08-25T19:07:01Z",
+      "author": "sunnynagra",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 235,
+        "score": 484
+      },
+      "human_label": "maybe",
+      "human_reason": "Notícia interessante sobre FDA autorizar dispositivos werables para monitorar algumas coisas de forma contínua. Pode ser algo interessante mais pra frente."
+    },
+    {
+      "item_id": "hacker_news:49464312",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Shieldprompt – test your LLM against prompt injection – no dependencies",
+      "url": "https://github.com/Jograph17/shieldprompt",
+      "published_at": "2026-08-27T13:07:43Z",
+      "author": "Jograoh17",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 2
+      },
+      "human_label": "maybe",
+      "human_reason": "Projeto para testar prompt injection, como inovação não é tão interessante, mas pode ser útil em algum momento. Além disso o projto tem apenas uma estrela, então não sei se é muito confiável"
+    },
+    {
+      "item_id": "hacker_news:49449363",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Prompt Builder – Free Templates",
+      "url": "https://www.promptbuilder.space/templates",
+      "published_at": "2026-08-26T14:01:04Z",
+      "author": "LandoLorinse",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 20
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Ferramenta para auxiliar na construção de prompts"
+    },
+    {
+      "item_id": "hacker_news:49445727",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "RAG Is Simpler Than You Think",
+      "url": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "published_at": "2026-08-26T08:39:17Z",
+      "author": "j0selit0",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 199,
+        "score": 471
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Apenas um artigo de blog falando sobre RAG e algumas formas de como implementar"
+    },
+    {
+      "item_id": "hacker_news:49464310",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Confdiff – semantic diff for config files (JSON/YAML/TOML) that redacts secrets",
+      "url": "https://github.com/esperanza-volkov/confdiff",
+      "published_at": "2026-08-27T13:07:33Z",
+      "author": "esperanzavolkov",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Projeto para melhorar leiturabilidade de diff de arquivos estruturados (json, yml etc.)"
+    },
+    {
+      "item_id": "hacker_news:49437361",
+      "source": "hacker_news",
+      "source_surface_or_feed": "showstories",
+      "title": "Show HN: Lightweight system monitor for Linux VPS written in Go",
+      "url": "https://github.com/leodeim/vpsmon",
+      "published_at": "2026-08-25T17:13:59Z",
+      "author": "ygagaga",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 18,
+        "score": 61
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Tecnologia para monitoramento de VPS Linux"
+    },
+    {
+      "item_id": "hacker_news:49450448",
+      "source": "hacker_news",
+      "source_surface_or_feed": "beststories",
+      "title": "Nebula Sans",
+      "url": "https://www.nebulasans.com",
+      "published_at": "2026-08-26T15:03:52Z",
+      "author": "GavinAnderegg",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 176,
+        "score": 445
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É uma font family"
+    },
+    {
+      "item_id": "hacker_news:49464520",
+      "source": "hacker_news",
+      "source_surface_or_feed": "newstories",
+      "title": "Sunshine",
+      "url": "https://www.guidavid.com/writing/sunshine",
+      "published_at": "2026-08-27T13:21:35Z",
+      "author": "gdss",
+      "short_description": "",
+      "available_metrics": {
+        "comments": 0,
+        "score": 1
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Parece ser um poema"
+    },
+    {
+      "item_id": "github:1348726778",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "abdullahfarooqui2004/Authentication-Module",
+      "url": "https://github.com/abdullahfarooqui2004/Authentication-Module",
+      "published_at": "2026-08-27T16:51:14Z",
+      "author": "abdullahfarooqui2004",
+      "short_description": "JWT authentication module that contains all the basic functionality like signup, login, logout with both application of Access Tokens as well as Refresh Tokens README: # Authentication Service Simple JWT-based authentication service with refresh token support built with Express and Mongoose. ## Features - User registration with hashed passwords (SHA-256) - Access tokens (short-lived) and refresh tokens (rotating) - Session storage with refresh token hashes - Logout and token revocation ## Requi…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:51:14Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:00:36Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:51:14Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Projeto sem valor"
+    },
+    {
+      "item_id": "github:1190450025",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "api-evangelist/coach",
+      "url": "https://github.com/api-evangelist/coach",
+      "published_at": "2026-03-24T09:44:49Z",
+      "author": "api-evangelist",
+      "short_description": "Coach is a luxury leather goods and lifestyle brand offering handbags, accessories, footwear, ready-to-wear apparel, and fragrances. Coach is owned by Tapestry, Inc. (NYSE: TPR), the New York-based house of accessible luxury brands that also operates Kate Spade New York and Stuart Weitzman. README: # Coach (coach) <!-- API-EVANGELIST-PROVENANCE:BEGIN --> > ### About this repository > > **This is not our API.** This repository is an independent, third-party profile of a company's > **publicly av…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-03-24T09:44:49Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:58:16Z",
+        "stars": 0,
+        "topics": [
+          "apis-json",
+          "apparel",
+          "fashion",
+          "handbags",
+          "leather-goods",
+          "luxury",
+          "retail"
+        ],
+        "updated_at": "2026-08-27T16:59:58Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor comercial"
+    },
+    {
+      "item_id": "github:1348476282",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "girishxp/PulseStudio",
+      "url": "https://github.com/girishxp/PulseStudio",
+      "published_at": "2026-08-27T12:38:58Z",
+      "author": "girishxp",
+      "short_description": "Your intelligent workspace for screen, voice, and playback. README: # PulseStudio v0.2.119 ## v0.2.119 analytics delivery reliability - Uses PostHog batch ingestion for desktop analytics delivery. - Prefers Electron Chromium networking so system/corporate proxy, DNS, and certificate settings are honored. - Falls back to Node HTTPS if Electron networking is unavailable before a response is received. - Records transport, endpoint, HTTP status, last send time, and connection error in diagnostics f…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T12:38:58Z",
+        "forks": 0,
+        "language": "JavaScript",
+        "open_issues": 1,
+        "pushed_at": "2026-08-27T17:02:20Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:58:27Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Gravação e inteligência de conversas com IA local, com potencial testável para pesquisa, atendimento, produtividade e casos adjacentes à saúde."
+    },
+    {
+      "item_id": "github:1347861351",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "Jakevin/guild",
+      "url": "https://github.com/Jakevin/guild",
+      "published_at": "2026-08-26T22:52:12Z",
+      "author": "Jakevin",
+      "short_description": "Local-first talent bench for AI bots. @mention the one you want. Not another omniscient chat. README: <p align=\"left\"><img src=\"docs/logo/B-g-monogram.svg\" width=\"128\" height=\"128\" alt=\"Guild\"></p> # Guild [English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md) **Staff a local bench of bots. @mention the one you actually want. Not another omniscient chat.** Local-first. Your files. Your models. ![Staff a local bench. @mention one.](docs/demo.gif) ## Quick start Need [Node](https://nodej…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-26T22:52:12Z",
+        "forks": 0,
+        "language": "TypeScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:01:03Z",
+        "stars": 0,
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "local-first",
+          "ollama",
+          "openai",
+          "typescript"
+        ],
+        "updated_at": "2026-08-27T11:34:23Z"
+      },
+      "human_label": "maybe",
+      "human_reason": "Ambiente local de múltiplos agentes de IA especializados, acionados por @menções, com potencial testável para criar “times virtuais” de produto, pesquisa, marketing ou operações, mas ainda bastante experimental e técnico para configurar."
+    },
+    {
+      "item_id": "github:1348729924",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "Monishwaran2005/Customer-personality-Data-Cleaning",
+      "url": "https://github.com/Monishwaran2005/Customer-personality-Data-Cleaning",
+      "published_at": "2026-08-27T16:54:38Z",
+      "author": "Monishwaran2005",
+      "short_description": "Data Cleaning and preprocessing of the cutomers and showing dataset using python and pandas README: # Customer-personality-Data-Cleaning Data Cleaning and preprocessing of the cutomers and showing dataset using python and pandas # Customer Personality Data Cleaning ## Objective To clean and preprocess the Customer Personality Analysis dataset using Python and Pandas. ## Work Done - Checked missing values - Filled missing values - Removed duplicate rows - Cleaned text values - Cleaned column nam…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:54:38Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:56:40Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:54:40Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Exercício básico de limpeza e pré-processamento de dados de clientes com Python/Pandas, sem tecnologia, capacidade nova ou proposta testável que gere valor de inovação por si só."
+    },
+    {
+      "item_id": "github:1326527326",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "kenlin8827/opencode-prime",
+      "url": "https://github.com/kenlin8827/opencode-prime",
+      "published_at": "2026-08-07T10:25:52Z",
+      "author": "kenlin8827",
+      "short_description": "🛠️ OpenCode production-level engineering configuration: full-chain engineering safeguards, hierarchical MCP code intelligence and database gateways, as well as collaboration among 17 experts and hierarchical model management|🛠️ OpenCode 生产级工程化配置：全链路工程护栏、分层MCP代码智能与数据库网关、17位专家协同与分层模型治理 README: # OpenCode Prime (OCP) > **The Flagship Production Engineering & Multi-Agent Suite for OpenCode** A production-ready [OpenCode](https://opencode.ai) suite for real-world software engineering: layered MCP co…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-07T10:25:52Z",
+        "forks": 0,
+        "language": "TypeScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:00:04Z",
+        "stars": 8,
+        "topics": [
+          "agentic-ai",
+          "ai-coding",
+          "code-intelligence",
+          "developer-tools",
+          "mcp",
+          "multi-agent",
+          "opencode"
+        ],
+        "updated_at": "2026-08-27T16:59:18Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Suíte multiagente voltada diretamente para engenharia de software no OpenCode, com agentes especializados, MCPs, revisão de código, guardrails e governança de modelos; útil para desenvolvedores, mas fora do foco de inovação não-dev que estamos buscando."
+    },
+    {
+      "item_id": "github:1348732903",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "eljagjonaj/Closetly-Dress-well-Feel-like-yourself",
+      "url": "https://github.com/eljagjonaj/Closetly-Dress-well-Feel-like-yourself",
+      "published_at": "2026-08-27T16:57:53Z",
+      "author": "eljagjonaj",
+      "short_description": "With Closetly, you can: add and organize your clothing pieces, save each item's color, style, and where you wear it, search and filter your wardrobe, mark your favorite pieces, create outfits from your own clothes, browse your wardrobe with a clean, responsive design README: # Closetly-Dress-well-Feel-like-yourself With Closetly, you can: add and organize your clothing pieces, save each item's color, style, and where you wear it, search and filter your wardrobe, mark your favorite pieces, creat…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:57:53Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:57:55Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:57:55Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Não tem nada"
+    },
+    {
+      "item_id": "github:1348725654",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "priyanshu5420/smart-walking-stick",
+      "url": "https://github.com/priyanshu5420/smart-walking-stick",
+      "published_at": "2026-08-27T16:49:51Z",
+      "author": "priyanshu5420",
+      "short_description": "Smart assistive walking aid integrating real-time obstacle detection, GPS navigation, voice commands, and vibration-based directional feedback using Raspberry Pi and Arduino. README: **Capstone Project-I | Department of Mechanical Engineering, IIT Ropar** **Supervisor:** Prof. Harpreet Singh # Smart Walking Aid Stick ## Project Overview A portable, hardware-focused prototype developed to improve obstacle awareness and navigation for visually impaired and elderly users. The project emphasizes ph…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:49:51Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:02:06Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:49:52Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Bengala assistiva inteligente com detecção de obstáculos, navegação por GPS, comandos de voz e feedback háptico, com aplicação direta em acessibilidade, envelhecimento saudável e mobilidade e potencial claro para POC e evolução comercial."
+    },
+    {
+      "item_id": "github:1290112926",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "subev/libratory",
+      "url": "https://github.com/subev/libratory",
+      "published_at": "2026-07-05T15:38:21Z",
+      "author": "subev",
+      "short_description": "Offline audiobook library on Apple Silicon: PDFs → chapter-marked M4B via local TTS, plus RAG chat over your whole library with cited sources, AI translations/rewrites, and read-along synced EPUBs README: # Libratory Turns PDF books into audiobooks — and more. Upload PDFs, pick a voice, and get chapter-marked M4B audiobooks, AI digests, translations, AI rewrites (ELI5, summaries, custom prompts), PDF/EPUB exports, and read-along synced EPUBs (audio + highlighted text) you can listen to offline…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-05T15:38:21Z",
+        "forks": 6,
+        "language": "TypeScript",
+        "open_issues": 1,
+        "pushed_at": "2026-08-27T17:00:43Z",
+        "stars": 48,
+        "topics": [
+          "audiobook",
+          "kokoro",
+          "llm",
+          "local-first",
+          "mlx",
+          "pdf",
+          "tts"
+        ],
+        "updated_at": "2026-08-27T17:01:02Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Transforma PDFs em audiobooks, resumos, traduções e experiências de leitura sincronizada com IA, com potencial testável para acessibilidade, educação, conteúdo em saúde e novas formas de consumir materiais complexos."
+    },
+    {
+      "item_id": "github:1341688694",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "kuramalab/QA-Video-Redactor-Release",
+      "url": "https://github.com/kuramalab/QA-Video-Redactor-Release",
+      "published_at": "2026-08-21T10:34:37Z",
+      "author": "kuramalab",
+      "short_description": "Downloads and releases for QA Video Redactor — automatic personal-data blurring for video README: # QA Video Redactor **Screen recordings leak.** A demo, a bug report, a training clip: on screen there is a customer's email address, an IBAN, a tax code, a name in a form. The recording gets shared with a colleague, a client, a supplier — and the personal data travels with it. Blurring it by hand means scrubbing frame by frame, and a single frame missed is a leak. QA Video Redactor does it for you…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-21T10:34:37Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:51:17Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:58:31Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Ferramenta local que detecta e mascara automaticamente dados pessoais em gravações de tela, com potencial claro para privacidade, LGPD, treinamento, suporte, QA e compartilhamento seguro de vídeos."
+    },
+    {
+      "item_id": "github:1311961079",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "api-evangelist/compt",
+      "url": "https://github.com/api-evangelist/compt",
+      "published_at": "2026-07-25T12:23:06Z",
+      "author": "api-evangelist",
+      "short_description": "Compt is an employee benefits platform that automates flexible stipends and Lifestyle Spending Accounts (LSAs). HR teams define eligible categories across 30+ benefit types — wellness, childcare, professional development, and more — while employees submit receipts for reimbursement.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-25T12:23:06Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:59:39Z",
+        "stars": 0,
+        "topics": [
+          "apis-json",
+          "company",
+          "employee-benefits",
+          "hr-tech",
+          "human-resources",
+          "lifestyle-spending-account",
+          "payroll",
+          "reimbursement",
+          "stipends"
+        ],
+        "updated_at": "2026-08-27T17:01:31Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É apenas um perfil/stub de uma empresa catalogada pelo API Evangelist, sem software, protótipo ou capacidade testável para gerar valor de inovação."
+    },
+    {
+      "item_id": "github:1310809822",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "api-evangelist/cladwell",
+      "url": "https://github.com/api-evangelist/cladwell",
+      "published_at": "2026-07-24T08:26:30Z",
+      "author": "api-evangelist",
+      "short_description": "Cladwell is a smart-closet and outfit-planning consumer application that helps people build capsule wardrobes and get more wear out of the clothes they already own. The service digitizes a user's closet, then uses AI styling (\"Ask Cladwell\") together with weather and personal preferences to recommend daily outfits, reduce over-buying, and…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-24T08:26:30Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:57:03Z",
+        "stars": 0,
+        "topics": [
+          "ai-styling",
+          "apis-json",
+          "company",
+          "consumer-app",
+          "fashion",
+          "retail",
+          "sustainability",
+          "wardrobe"
+        ],
+        "updated_at": "2026-08-27T17:01:47Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Um perfil/stub da empresa Cladwell dentro do API Evangelist, sem software, protótipo ou funcionalidade testável para o nosso radar."
+    },
+    {
+      "item_id": "github:1347472201",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "giaphoang/PatrolLens",
+      "url": "https://github.com/giaphoang/PatrolLens",
+      "published_at": "2026-08-26T15:00:58Z",
+      "author": "giaphoang",
+      "short_description": "AI-powered evidence investigation for law-enforcement bodycam footage with multimodal search and timestamped event retrieval.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-26T15:00:58Z",
+        "forks": 0,
+        "language": "Python",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:01:52Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T12:04:36Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Transforma vídeos longos em conteúdo pesquisável por linguagem natural, localizando momentos específicos com timestamps e evidências multimodais, com potencial testável para saúde, auditoria, treinamento, segurança e análise operacional."
+    },
+    {
+      "item_id": "github:1343941783",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "jmaroszek/Time",
+      "url": "https://github.com/jmaroszek/Time",
+      "published_at": "2026-08-23T15:56:01Z",
+      "author": "jmaroszek",
+      "short_description": "A local-first time tracker for Windows. Source published for inspection, not licensed for use.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-23T15:56:01Z",
+        "forks": 0,
+        "language": "TypeScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:00:39Z",
+        "stars": 0,
+        "topics": [
+          "local-first",
+          "privacy",
+          "productivity",
+          "python",
+          "react",
+          "rust",
+          "sqlite",
+          "tauri",
+          "time-tracking",
+          "windows"
+        ],
+        "updated_at": "2026-08-27T17:02:10Z"
+      },
+      "human_label": "maybe",
+      "human_reason": "Rastreador local de uso do computador que mostra como o tempo é distribuído entre apps e atividades, com potencial testável para produtividade, foco e bem-estar digital, mas com valor comercial menos diferenciado e código não licenciado para reutilização."
+    },
+    {
+      "item_id": "github:1288559934",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "habeas-dev/habeas",
+      "url": "https://github.com/habeas-dev/habeas",
+      "published_at": "2026-07-03T18:16:45Z",
+      "author": "habeas-dev",
+      "short_description": "Reclaim your own personal data from services that lock it behind non-automatable walls — a browser extension that extracts your data within your own session.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-03T18:16:45Z",
+        "forks": 0,
+        "language": "JavaScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:51:27Z",
+        "stars": 2,
+        "topics": [
+          "browser-extension",
+          "data-portability",
+          "gdpr",
+          "personal-data",
+          "self-hosted"
+        ],
+        "updated_at": "2026-08-27T16:51:11Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Extensão local-first que recupera automaticamente documentos e dados do próprio usuário em sites sem API ou exportação fácil, com potencial testável para portabilidade de dados, saúde, finanças e integração de jornadas fragmentadas."
+    },
+    {
+      "item_id": "github:1348734255",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "arjunkukadia/lanczos-eigensolver",
+      "url": "https://github.com/arjunkukadia/lanczos-eigensolver",
+      "published_at": "2026-08-27T16:59:25Z",
+      "author": "arjunkukadia",
+      "short_description": "Implementation of Lanczos algorithm returning the Ritz values in comparison with true eigenvalues for low N, as well as plots which show convergence of eigenvalues as size of Krylov subspace increases, and convergence of residual towards 0 as k increases.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:59:25Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:00:07Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:59:26Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Implementação acadêmica do algoritmo de Lanczos para calcular autovalores/autovetores de matrizes hermitianas e estudar convergência numérica, sem uma aplicação testável ou proposta de valor perceptível para usuário ou negócio."
+    },
+    {
+      "item_id": "github:1310661333",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "api-evangelist/calibra-medical",
+      "url": "https://github.com/api-evangelist/calibra-medical",
+      "published_at": "2026-07-24T05:25:33Z",
+      "author": "api-evangelist",
+      "short_description": "Calibra Medical, Inc. was a Redwood City, California medical device company founded in 2004 to make mealtime insulin therapy simpler and more discreet. Its product was the Finesse \"patch-pen\", a fully mechanical, three-day wearable bolus insulin delivery patch (roughly 2 x 1 x 0.25 inches, 200-unit reservoir, no batteries, display, or handheld…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-24T05:25:33Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:52:22Z",
+        "stars": 0,
+        "topics": [
+          "acquired",
+          "apis-json",
+          "company",
+          "diabetes",
+          "drug-delivery",
+          "health",
+          "insulin-delivery",
+          "medical-devices",
+          "wearables"
+        ],
+        "updated_at": "2026-08-27T17:01:52Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Apesar de ser uma empresa da área médica, este repositório é apenas um perfil/stub do API Evangelist, sem software, protótipo ou capacidade testável para o radar de inovação."
+    },
+    {
+      "item_id": "github:1335724285",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "boobeshwar-hub/Rural-Awareness-Accessibility-of-TN-Government-Schemes-",
+      "url": "https://github.com/boobeshwar-hub/Rural-Awareness-Accessibility-of-TN-Government-Schemes-",
+      "published_at": "2026-08-16T07:50:15Z",
+      "author": "boobeshwar-hub",
+      "short_description": "A Tamil voice-first and OCR-enabled accessibility portal that accepts spoken queries or document scans to automatically match eligible Tamil Nadu welfare schemes for rural citizens.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-16T07:50:15Z",
+        "forks": 0,
+        "language": "HTML",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:01:31Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-17T05:19:53Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Assistente voice-first que combina fala, OCR de documentos e regras de elegibilidade para indicar benefícios públicos, com potencial testável em acessibilidade, navegação de serviços e jornadas de saúde/social."
+    },
+    {
+      "item_id": "github:1337574188",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "TQC0103/scientific-research-agent",
+      "url": "https://github.com/TQC0103/scientific-research-agent",
+      "published_at": "2026-08-17T19:31:46Z",
+      "author": "TQC0103",
+      "short_description": "Local-first agentic scientific research assistant with LangGraph, arXiv, FAISS, Ollama, and citation-grounded answers",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-17T19:31:46Z",
+        "forks": 0,
+        "language": "Python",
+        "open_issues": 1,
+        "pushed_at": "2026-08-27T17:00:37Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:48:11Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Agente local-first de pesquisa científica que busca artigos no arXiv, indexa PDFs e responde com evidências verificadas e citações por página/seção, com potencial claro para pesquisa, inovação e inteligência científica em saúde."
+    },
+    {
+      "item_id": "github:1346627583",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "owen282000/life-dashboard-companion-app-ios",
+      "url": "https://github.com/owen282000/life-dashboard-companion-app-ios",
+      "published_at": "2026-08-25T21:02:33Z",
+      "author": "owen282000",
+      "short_description": "Sync Apple Health (HealthKit) data to self-hosted webhooks and MQTT/Home Assistant. Compatible payload with the Android companion. No cloud, no trackers, no dependencies.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-25T21:02:33Z",
+        "forks": 0,
+        "language": "Swift",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:01:08Z",
+        "stars": 1,
+        "topics": [
+          "apple-health",
+          "health",
+          "healthkit",
+          "home-assistant",
+          "ios",
+          "mqtt",
+          "quantified-self",
+          "self-hosted",
+          "swift",
+          "swiftui",
+          "webhook"
+        ],
+        "updated_at": "2026-08-27T16:44:43Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "App iOS local-first que extrai dados do Apple Health/HealthKit e envia para um backend próprio via webhooks, criando uma base prática para experiências de saúde preventiva, monitoramento e dashboards personalizados sem depender de uma nuvem terceira."
+    },
+    {
+      "item_id": "github:1288297200",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "api-evangelist/classpass",
+      "url": "https://github.com/api-evangelist/classpass",
+      "published_at": "2026-07-03T13:11:46Z",
+      "author": "api-evangelist",
+      "short_description": "ClassPass is a fitness and wellness marketplace that lets consumers book classes, gym visits, and spa/wellness experiences across a network of studios in a single app using a monthly credit subscription.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-03T13:11:46Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:57:14Z",
+        "stars": 0,
+        "topics": [
+          "apis-json",
+          "class-booking",
+          "fitness",
+          "gyms",
+          "marketplace",
+          "partner-api",
+          "scheduling",
+          "studios",
+          "wellness"
+        ],
+        "updated_at": "2026-08-27T16:59:02Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Apesar de descrever uma plataforma real de fitness e wellness com API de parceiros, este repositório é apenas um perfil informativo do API Evangelist e não contém software ou algo que possamos prototipar diretamente."
+    },
+    {
+      "item_id": "github:1310616412",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "api-evangelist/breathe-technologies",
+      "url": "https://github.com/api-evangelist/breathe-technologies",
+      "published_at": "2026-07-24T04:15:53Z",
+      "author": "api-evangelist",
+      "short_description": "Breathe Technologies, Inc. is a California-based medical device company that develops wearable and continuous ventilation systems for patients with chronic respiratory insufficiency and neuromuscular disease.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-24T04:15:53Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:50:49Z",
+        "stars": 0,
+        "topics": [
+          "apis-json",
+          "company",
+          "healthcare",
+          "home-healthcare",
+          "medical-devices",
+          "medical-hardware",
+          "respiratory-care",
+          "ventilators"
+        ],
+        "updated_at": "2026-08-27T16:59:21Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Apesar de a Breathe Technologies ser da área de healthcare, este repositório é apenas um perfil/stub do API Evangelist e não contém software, protótipo ou tecnologia testável."
+    },
+    {
+      "item_id": "github:1132684547",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "BuildWithAIs/voicekey",
+      "url": "https://github.com/BuildWithAIs/voicekey",
+      "published_at": "2026-01-12T10:02:32Z",
+      "author": "BuildWithAIs",
+      "short_description": "Voice to text, one key to input.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-01-12T10:02:32Z",
+        "forks": 15,
+        "language": "TypeScript",
+        "open_issues": 4,
+        "pushed_at": "2026-08-27T17:01:13Z",
+        "stars": 178,
+        "topics": [
+          "ai",
+          "electron",
+          "macos",
+          "productivity",
+          "react",
+          "speech-recognition",
+          "typescript",
+          "voice-to-text",
+          "windows"
+        ],
+        "updated_at": "2026-08-27T15:50:58Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Aplicativo de ditado por voz local-first que transcreve fala, refina o texto com IA e injeta o resultado diretamente no campo em foco, com potencial testável para produtividade, acessibilidade e documentação em saúde."
+    },
+    {
+      "item_id": "github:1119131583",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "winstonkoh87/Athena-Public",
+      "url": "https://github.com/winstonkoh87/Athena-Public",
+      "published_at": "2025-12-18T19:47:38Z",
+      "author": "winstonkoh87",
+      "short_description": "Athena is a local-first agentic PKM that helps you make better decisions with your own context — persistent memory, structured reasoning, and governed AI agents that work across any LLM. Own the state. Rent the intelligence.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2025-12-18T19:47:38Z",
+        "forks": 77,
+        "language": "Python",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:00:14Z",
+        "stars": 583,
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-assistant",
+          "automation",
+          "chatgpt",
+          "developer-tools",
+          "framework",
+          "gemini",
+          "google-antigravity",
+          "graphrag",
+          "knowledge-management",
+          "llm",
+          "local-first",
+          "memory",
+          "open-source",
+          "prompt-engineering",
+          "python",
+          "rag",
+          "semantic-search",
+          "vector-search"
+        ],
+        "updated_at": "2026-08-27T16:47:36Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Camada local-first de memória, contexto e governança para LLMs que preserva conhecimento do usuário entre modelos diferentes, com potencial testável para continuidade de contexto, assistentes pessoais e agentes mais consistentes ao longo do tempo."
+    },
+    {
+      "item_id": "github:1348714425",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "Vl4dimirz/orderhub",
+      "url": "https://github.com/Vl4dimirz/orderhub",
+      "published_at": "2026-08-27T16:37:20Z",
+      "author": "Vl4dimirz",
+      "short_description": "One order list across Shopify, Shopee, Amazon SP-API and WooCommerce. Verified webhooks, one normalised order model, and synthetic test fixtures named to keep the personal-data rule visible.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:37:20Z",
+        "forks": 0,
+        "language": "TypeScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:37:51Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:54:58Z"
+      },
+      "human_label": "maybe",
+      "human_reason": "Centraliza pedidos de múltiplos marketplaces em uma única visão e normaliza status e dados entre canais, com valor operacional claro, mas é mais solução de e-commerce/integração do que uma capacidade nova de inovação."
+    },
+    {
+      "item_id": "github:884558341",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "api-evangelist/chainlens",
+      "url": "https://github.com/api-evangelist/chainlens",
+      "published_at": "2024-11-07T01:04:25Z",
+      "author": "api-evangelist",
+      "short_description": "Chainlens, built by Web3 Labs, is a blockchain explorer and analytics platform for EVM-compatible public and private chains (Ethereum, Hyperledger Besu, Quorum, Polygon, Avalanche, BNB Chain, etc.) as well as Substrate-based chains.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2024-11-07T01:04:25Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 5,
+        "pushed_at": "2026-08-27T16:55:23Z",
+        "stars": 0,
+        "topics": [
+          "analytics",
+          "apis-json",
+          "block-explorer",
+          "blockchain",
+          "cryptocurrencies",
+          "defi",
+          "ethereum",
+          "evm",
+          "nfts",
+          "smart-contracts",
+          "web3"
+        ],
+        "updated_at": "2026-08-27T16:57:43Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "O repositório é apenas um perfil do API Evangelist sobre a plataforma Chainlens; descreve APIs de blockchain e analytics, mas não contém software ou uma capacidade diretamente prototipável para o radar."
+    },
+    {
+      "item_id": "github:776121034",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "published_at": "2024-03-22T18:12:25Z",
+      "author": "BasedHardware",
+      "short_description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2024-03-22T18:12:25Z",
+        "forks": 2207,
+        "language": "Python",
+        "open_issues": 604,
+        "pushed_at": "2026-08-27T16:49:56Z",
+        "stars": 13267,
+        "topics": [
+          "ai",
+          "app",
+          "bci",
+          "c",
+          "flutter",
+          "friend",
+          "mobile",
+          "necklace",
+          "nextjs",
+          "omi",
+          "personas",
+          "python",
+          "smartglasses",
+          "summary",
+          "transcription",
+          "wearable"
+        ],
+        "updated_at": "2026-08-27T16:56:06Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Ecossistema open source de wearable + apps que captura conversas e tela, transcreve em tempo real, gera resumos/action items e cria uma memória contínua pesquisável do que a pessoa viu e ouviu."
+    },
+    {
+      "item_id": "github:1314778823",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "hpnkv/a11",
+      "url": "https://github.com/hpnkv/a11",
+      "published_at": "2026-07-28T09:17:33Z",
+      "author": "hpnkv",
+      "short_description": "A streaming action runtime for AI agents, model serving, and multimodal APIs",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-28T09:17:33Z",
+        "forks": 0,
+        "language": "C++",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:01:00Z",
+        "stars": 0,
+        "topics": [
+          "ai",
+          "ai-agents",
+          "api",
+          "cplusplus",
+          "cpp",
+          "cpp20",
+          "javascript",
+          "llm",
+          "llm-agents",
+          "llmops",
+          "mlops",
+          "model-serving",
+          "multimodal",
+          "multimodal-ai",
+          "python",
+          "serving-ml",
+          "streaming",
+          "typescript"
+        ],
+        "updated_at": "2026-08-27T16:54:31Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Runtime/framework para desenvolvedores construírem e orquestrarem agentes de IA, chamadas de modelos e pipelines multimodais; tecnicamente robusto, mas é infraestrutura de desenvolvimento, não uma capacidade de negócio ou experiência diretamente testável."
+    },
+    {
+      "item_id": "github:1348686403",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "horry0214/sideask",
+      "url": "https://github.com/horry0214/sideask",
+      "published_at": "2026-08-27T16:06:59Z",
+      "author": "horry0214",
+      "short_description": "AI side-question layer — ask aside, stay on track.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T16:06:59Z",
+        "forks": 0,
+        "language": "JavaScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:59:51Z",
+        "stars": 1,
+        "topics": [
+          "ai",
+          "browser-extension",
+          "byok",
+          "knowledge-base",
+          "learning",
+          "local-first",
+          "manifest-v3"
+        ],
+        "updated_at": "2026-08-27T16:27:35Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Extensão local-first que permite selecionar um trecho em qualquer página, fazer uma pergunta contextual sem sair da leitura e transformar essas “dúvidas laterais” em memória estruturada de aprendizado e pontos de revisão."
+    },
+    {
+      "item_id": "github:1309517178",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "api-evangelist/alien",
+      "url": "https://github.com/api-evangelist/alien",
+      "published_at": "2026-07-23T04:31:41Z",
+      "author": "api-evangelist",
+      "short_description": "Alien is a proof-of-humanity protocol with its own Layer 1 blockchain that verifies users are real, unique humans without storing biometrics, documents, or personal data — retaining only cryptographic proofs, hashes, and Merkle roots via its Continuous Human Verification Protocol (CHVP).",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-23T04:31:41Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:37:22Z",
+        "stars": 0,
+        "topics": [
+          "agents",
+          "apis-json",
+          "authentication",
+          "blockchain",
+          "company",
+          "crypto",
+          "identity",
+          "oauth",
+          "openid-connect",
+          "proof-of-humanity",
+          "solana"
+        ],
+        "updated_at": "2026-08-27T16:44:52Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "É apenas um perfil/stub da empresa Alien dentro do API Evangelist, sem software, protótipo ou capacidade testável para o radar."
+    },
+    {
+      "item_id": "github:1185766592",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "api-evangelist/cdisc",
+      "url": "https://github.com/api-evangelist/cdisc",
+      "published_at": "2026-03-18T23:26:47Z",
+      "author": "api-evangelist",
+      "short_description": "CDISC Library uses linked data and a REST API to deliver CDISC standards metadata to software applications that automate standards-based processes. CDISC Library provides access to new relationships between standards as well as a substantially increased number of versioned CDISC standards and controlled terminology packages.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-03-18T23:26:47Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:54:36Z",
+        "stars": 1,
+        "topics": [
+          "adam",
+          "apis-json",
+          "biomedical-concepts",
+          "cdash",
+          "clinical-trials",
+          "conformance",
+          "pharma",
+          "products",
+          "rules",
+          "sdtm",
+          "terminology",
+          "validation"
+        ],
+        "updated_at": "2026-08-27T16:56:19Z"
+      },
+      "human_label": "maybe",
+      "human_reason": "O repositório é apenas um perfil do API Evangelist, mas aponta para APIs reais da CDISC e para o CDISC CORE, que podem ser usados para validar e padronizar dados clínicos em SDTM/ADaM, com potencial claro para POCs em interoperabilidade e qualidade de dados de saúde."
+    },
+    {
+      "item_id": "github:1320494830",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "api-evangelist/biointellisense",
+      "url": "https://github.com/api-evangelist/biointellisense",
+      "published_at": "2026-08-02T18:51:51Z",
+      "author": "api-evangelist",
+      "short_description": "BioIntelliSense is a Golden, Colorado continuous health monitoring company whose FDA-cleared BioButton multi-patient wearable, BioSticker, BioHub cellular/Wi-Fi gateways, BioMobile smartphone app and BioDashboard exception-management software stream medical-grade vital signs — heart rate, respiratory rate, skin temperature, body position, activity…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-02T18:51:51Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:48:19Z",
+        "stars": 0,
+        "topics": [
+          "apis-json",
+          "company",
+          "continuous-monitoring",
+          "data-as-a-service",
+          "digital-health",
+          "health",
+          "healthcare",
+          "medical-devices",
+          "remote-patient-monitoring",
+          "vital-signs",
+          "wearables"
+        ],
+        "updated_at": "2026-08-27T16:56:16Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Embora a BioIntellisense seja uma empresa de healthtech, este repositório é apenas um stub informativo do API Evangelist e não contém software, API utilizável ou protótipo testável."
+    },
+    {
+      "item_id": "github:1348735516",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "raheemtolani30-lgtm/ai-evaluation-benchmarks",
+      "url": "https://github.com/raheemtolani30-lgtm/ai-evaluation-benchmarks",
+      "published_at": "2026-08-27T17:00:56Z",
+      "author": "raheemtolani30-lgtm",
+      "short_description": "Framework and datasets for evaluating generative AI text, multimodal outputs, and complex reasoning against strict factual, logical, and alignment rubrics.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T17:00:56Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T17:00:58Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T17:00:58Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "A proposta seria avaliar outputs de IA generativa com benchmarks de factualidade, lógica e alinhamento, mas o repositório hoje praticamente não tem implementação nem datasets para testar."
+    },
+    {
+      "item_id": "github:1227714788",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "xingkaixin/yomitomo",
+      "url": "https://github.com/xingkaixin/yomitomo",
+      "published_at": "2026-05-03T04:09:20Z",
+      "author": "xingkaixin",
+      "short_description": "Yomitomo is a local reading companion for deep reading, bringing web reading, text annotations, discussion threads, and AI assistants into the same reading workspace. It helps readers capture judgments, questions, and context as they read, while AI assistants annotate and respond around the original text.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-05-03T04:09:20Z",
+        "forks": 1,
+        "language": "TypeScript",
+        "open_issues": 1,
+        "pushed_at": "2026-08-27T16:59:48Z",
+        "stars": 6,
+        "topics": [
+          "ai-reading",
+          "annotations",
+          "deep-reading",
+          "desktop-app",
+          "electron",
+          "epub",
+          "local-first",
+          "pdf-reader",
+          "react",
+          "reader",
+          "reading-companion",
+          "typescript"
+        ],
+        "updated_at": "2026-08-27T17:00:12Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Companion de leitura local-first com IA que importa artigos, PDFs e ebooks, permite highlights/anotações, chat contextual e “close reading” com assistentes que geram comentários e insights enquanto você lê."
+    },
+    {
+      "item_id": "github:1348635047",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "owen282000/life-dashboard-stack",
+      "url": "https://github.com/owen282000/life-dashboard-stack",
+      "published_at": "2026-08-27T15:12:21Z",
+      "author": "owen282000",
+      "short_description": "From phone to Grafana in 10 minutes: self-hosted receiving stack for Life Dashboard Companion (HMAC-verified webhook receiver, Postgres, provisioned Grafana)",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T15:12:21Z",
+        "forks": 0,
+        "language": "Python",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:30:40Z",
+        "stars": 0,
+        "topics": [
+          "docker-compose",
+          "grafana",
+          "health",
+          "quantified-self",
+          "self-hosted",
+          "webhook"
+        ],
+        "updated_at": "2026-08-27T16:39:34Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Stack self-hosted que recebe dados de saúde do celular, armazena em Postgres e já entrega dashboards em Grafana, formando uma base pronta para POCs de monitoramento longitudinal, wellness e acompanhamento preventivo."
+    },
+    {
+      "item_id": "github:1310705559",
+      "source": "github",
+      "source_surface_or_feed": "health_wellness",
+      "title": "api-evangelist/carreira-beauty",
+      "url": "https://github.com/api-evangelist/carreira-beauty",
+      "published_at": "2026-07-24T06:25:09Z",
+      "author": "api-evangelist",
+      "short_description": "Carreira Beauty (carreirabeauty.com) is a Brazilian online job marketplace connecting beauty, aesthetics, and wellness professionals with employment and freelance opportunities. The platform operates as a two-sided network that lets professionals — manicurists, hairdressers, estheticians, makeup artists, barbers, masotherapists, eyebrow designers…",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-24T06:25:09Z",
+        "forks": 0,
+        "language": null,
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:53:50Z",
+        "stars": 0,
+        "topics": [
+          "aesthetics",
+          "apis-json",
+          "beauty",
+          "brazil",
+          "company",
+          "employment",
+          "jobs",
+          "marketplace",
+          "wellness"
+        ],
+        "updated_at": "2026-08-27T16:59:25Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Sem valor algum"
+    },
+    {
+      "item_id": "github:1165361576",
+      "source": "github",
+      "source_surface_or_feed": "wearables_sensors",
+      "title": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "published_at": "2026-02-24T04:50:47Z",
+      "author": "cactus-compute",
+      "short_description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-02-24T04:50:47Z",
+        "forks": 604,
+        "language": "Python",
+        "open_issues": 25,
+        "pushed_at": "2026-08-27T16:47:58Z",
+        "stars": 9416,
+        "topics": [
+          "cactus",
+          "gemini",
+          "gemma",
+          "llm",
+          "on-device-ai"
+        ],
+        "updated_at": "2026-08-27T17:00:24Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Modelo ultracompacto de IA para rodar diretamente no dispositivo, capaz de chamar ferramentas e extrair dados estruturados offline usando só ~28 MB de RAM, abrindo espaço para agentes locais em wearables, celulares e dispositivos de saúde."
+    },
+    {
+      "item_id": "github:1295680195",
+      "source": "github",
+      "source_surface_or_feed": "voice_vision_multimodal",
+      "title": "dev-hkm/voges",
+      "url": "https://github.com/dev-hkm/voges",
+      "published_at": "2026-07-09T18:59:43Z",
+      "author": "dev-hkm",
+      "short_description": "Voges voice-first PWA financial concierge",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-07-09T18:59:43Z",
+        "forks": 0,
+        "language": "JavaScript",
+        "open_issues": 1,
+        "pushed_at": "2026-08-27T17:00:45Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-27T16:48:03Z"
+      },
+      "human_label": "interesting",
+      "human_reason": "Concierge financeiro voice-first que investiga problemas em linguagem natural, identifica causa raiz e propõe ações limitadas com confirmação visual, WebAuthn e regras determinísticas antes de qualquer mudança sensível."
+    },
+    {
+      "item_id": "github:1347025888",
+      "source": "github",
+      "source_surface_or_feed": "local_new_interfaces",
+      "title": "phantomsafe42/pokemon-line-calculator",
+      "url": "https://github.com/phantomsafe42/pokemon-line-calculator",
+      "published_at": "2026-08-26T07:10:31Z",
+      "author": "phantomsafe42",
+      "short_description": "A local-first Pokemon battle line planner with Singles and Doubles support.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-26T07:10:31Z",
+        "forks": 0,
+        "language": "JavaScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:59:31Z",
+        "stars": 0,
+        "topics": [],
+        "updated_at": "2026-08-26T10:37:11Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Ferramenta extremamente específica para planejar batalhas de Pokémon turno a turno, com cálculo de dano, ramificações e importação de saves; sofisticada tecnicamente, mas sem capacidade reaproveitável clara para produto, saúde ou operação."
+    },
+    {
+      "item_id": "github:1348672420",
+      "source": "github",
+      "source_surface_or_feed": "personal_data_experiments",
+      "title": "bjornpagen/fitness-ledger",
+      "url": "https://github.com/bjornpagen/fitness-ledger",
+      "published_at": "2026-08-27T15:51:29Z",
+      "author": "bjornpagen",
+      "short_description": "Source-grounded fitness policy and a private BumbleDB ledger for AI-assisted training.",
+      "available_metrics": {
+        "archived": false,
+        "created_at": "2026-08-27T15:51:29Z",
+        "forks": 0,
+        "language": "TypeScript",
+        "open_issues": 0,
+        "pushed_at": "2026-08-27T16:27:46Z",
+        "stars": 0,
+        "topics": [
+          "bumbledb",
+          "effect-ts",
+          "fitness",
+          "quantified-self",
+          "self-tracking",
+          "strength-training",
+          "typescript"
+        ],
+        "updated_at": "2026-08-27T16:38:20Z"
+      },
+      "human_label": "irrelevant",
+      "human_reason": "Por mais que a proposta seja muito boa é vinculado ao WHOOP e no Brasil quase ninguém tem e o público é pequeno"
+    }
+  ]
+}

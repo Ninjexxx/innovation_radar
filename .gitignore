@@ -1,6 +1,32 @@
-.env
-.venv/
+# Python
 __pycache__/
-*.pyc
-output/*.pdf
-output/*.md
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "positive-001",
+    "title": "Experimental wearable project detects changes in individual baseline",
+    "expected": "interesting",
+    "reason": "Demonstrates a new continuous-health capability rather than developer infrastructure."
+  },
+  {
+    "id": "negative-001",
+    "title": "New open-source multi-agent framework reaches 20k stars",
+    "expected": "irrelevant",
+    "reason": "Developer tooling without a clear new product, service or experience capability."
+  },
+  {
+    "id": "maybe-001",
+    "title": "Community experiments with combining personal data sources into one AI timeline",
+    "expected": "maybe",
+    "reason": "Potentially relevant behavior, but requires investigation to validate novelty and applicability."
+  }
+]
